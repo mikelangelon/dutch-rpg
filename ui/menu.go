@@ -4,6 +4,7 @@ import (
 	"github.com/ebitenui/ebitenui"
 	"github.com/ebitenui/ebitenui/image"
 	"github.com/ebitenui/ebitenui/widget"
+	"github.com/hajimehoshi/ebiten/v2"
 	"image/color"
 )
 
@@ -18,7 +19,7 @@ func NewMenuUI() *MenuUI {
 		widget.ContainerOpts.BackgroundImage(image.NewNineSliceColor(color.NRGBA{0x13, 0x1a, 0x22, 0xff})),
 		widget.ContainerOpts.Layout(widget.NewGridLayout(
 			widget.GridLayoutOpts.Columns(1),
-			widget.GridLayoutOpts.Stretch([]bool{true}, []bool{true}),
+			widget.GridLayoutOpts.Stretch([]bool{true, true}, []bool{true, true}),
 			widget.GridLayoutOpts.Spacing(20, 5),
 			widget.GridLayoutOpts.Padding(widget.Insets{Left: 200, Right: 200, Top: 200, Bottom: 200}),
 		),
@@ -41,24 +42,11 @@ func NewMenuUI() *MenuUI {
 	}}
 }
 
-func createButton(optionText string) *widget.Button {
-	buttonImage, _ := loadButtonImage()
+func (q *MenuUI) Update() error {
+	q.UI.Update()
+	return nil
+}
 
-	face, _ := loadFont(40)
-	return widget.NewButton(
-		widget.ButtonOpts.Image(buttonImage),
-		widget.ButtonOpts.Text(optionText, face, &widget.ButtonTextColor{
-			Idle: color.NRGBA{0xdf, 0xf4, 0xff, 0xff},
-		}),
-		widget.ButtonOpts.TextPadding(widget.Insets{
-			Left:   200,
-			Right:  200,
-			Top:    10,
-			Bottom: 10,
-		}),
-		widget.ButtonOpts.WidgetOpts(
-			widget.WidgetOpts.LayoutData(widget.AnchorLayoutData{
-				HorizontalPosition: widget.AnchorLayoutPositionCenter,
-			})),
-	)
+func (q *MenuUI) Draw(screen *ebiten.Image) {
+	q.UI.Draw(screen)
 }

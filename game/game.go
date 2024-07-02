@@ -11,22 +11,26 @@ const (
 )
 
 type Game struct {
-	Menu *ui.MenuUI
+	UI displayer
 }
 
 func NewGame() *Game {
-	return &Game{Menu: ui.NewMenuUI()}
+	return &Game{UI: ui.NewQuestionsUI()}
 }
 
 func (g *Game) Update() error {
-	g.Menu.UI.Update()
-	return nil
+	return g.UI.Update()
 }
 
 func (g *Game) Draw(screen *ebiten.Image) {
-	g.Menu.UI.Draw(screen)
+	g.UI.Draw(screen)
 }
 
 func (g *Game) Layout(_, _ int) (int, int) {
 	return ScreenWidth, ScreenHeight
+}
+
+type displayer interface {
+	Update() error
+	Draw(screen *ebiten.Image)
 }

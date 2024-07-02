@@ -34,3 +34,21 @@ func loadFont(size float64) (font.Face, error) {
 		Hinting: font.HintingFull,
 	}), nil
 }
+
+func createButton(optionText string) *widget.Button {
+	buttonImage, _ := loadButtonImage()
+
+	face, _ := loadFont(40)
+	return widget.NewButton(
+		widget.ButtonOpts.Image(buttonImage),
+		widget.ButtonOpts.Text(optionText, face, &widget.ButtonTextColor{
+			Idle: color.NRGBA{0xdf, 0xf4, 0xff, 0xff},
+		}),
+		widget.ButtonOpts.TextPadding(widget.Insets{
+			Left:   100,
+			Right:  100,
+			Top:    80,
+			Bottom: 80,
+		}),
+	)
+}
