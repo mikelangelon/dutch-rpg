@@ -1,0 +1,1548 @@
+- dutch: huis
+  english: house
+  example: Het huis is groot. (The house is big.)
+  type: noun
+- dutch: man
+  english: man
+  example: De man loopt snel. (The man is walking fast.)
+  type: noun
+- dutch: vrouw
+  english: woman
+  example: De vrouw praat vriendelijk. (The woman is speaking kindly.)
+  type: noun
+- dutch: kind
+  english: child
+  example: Het kind speelt in de tuin. (The child is playing in the garden.)
+  type: noun
+- dutch: dag
+  english: day
+  example: Het is een mooie dag. (It's a beautiful day.)
+  type: noun
+- dutch: tijd
+  english: time
+  example: Ik heb geen tijd. (I don't have time.)
+  type: noun
+- dutch: leven
+  english: life
+  example: Het leven is kort. (Life is short.)
+  type: noun
+- dutch: ogen
+  english: eyes
+  example: Hij heeft blauwe ogen. (He has blue eyes.)
+  type: noun
+- dutch: stad
+  english: city
+  example: Amsterdam is een mooie stad. (Amsterdam is a beautiful city.)
+  type: noun
+- dutch: land
+  english: country
+  example: Nederland is een klein land. (The Netherlands is a small country.)
+  type: noun
+- dutch: huisdier
+  english: pet
+  example: Mijn huisdier is een kat. (My pet is a cat.)
+  type: noun
+- dutch: kamer
+  english: room
+  example: De slaapkamer is gezellig. (The bedroom is cozy.)
+  type: noun
+- dutch: school
+  english: school
+  example: De school begint om 8 uur. (The school starts at 8 o'clock.)
+  type: noun
+- dutch: boek
+  english: book
+  example: Ik lees een interessant boek. (I am reading an interesting book.)
+  type: noun
+- dutch: water
+  english: water
+  example: Mag ik een glas water, alsjeblieft? (Can I have a glass of water, please?)
+  type: noun
+- dutch: brood
+  english: bread
+  example: Ik eet graag bruin brood. (I like to eat brown bread.)
+  type: noun
+- dutch: taal
+  english: language
+  example: Nederlands is een mooie taal. (Dutch is a beautiful language.)
+  type: noun
+- dutch: vader
+  english: father
+  example: Mijn vader werkt hard. (My father works hard.)
+  type: noun
+- dutch: moeder
+  english: mother
+  example: Mijn moeder kookt lekker. (My mother cooks deliciously.)
+  type: noun
+- dutch: dier
+  english: animal
+  example: De dierentuin heeft veel dieren. (The zoo has many animals.)
+  type: noun
+- dutch: bloem
+  english: flower
+  example: Er staan mooie bloemen in de tuin. (There are beautiful flowers in the garden.)
+  type: noun
+- dutch: lucht
+  english: sky
+  example: De lucht is blauw vandaag. (The sky is blue today.)
+  type: noun
+- dutch: auto
+  english: car
+  example: Mijn auto is rood. (My car is red.)
+  type: noun
+- dutch: fiets
+  english: bicycle
+  example: Ik fiets naar mijn werk. (I bike to my work.)
+  type: noun
+- dutch: zon
+  english: sun
+  example: De zon schijnt vandaag. (The sun is shining today.)
+  type: noun
+- dutch: maan
+  english: moon
+  example: De maan is helder vanavond. (The moon is bright tonight.)
+  type: noun
+- dutch: hand
+  english: hand
+  example: Geef me je hand. (Give me your hand.)
+  type: noun
+- dutch: oor
+  english: ear
+  example: Ik kan je goed horen met mijn oren. (I can hear you well with my ears.)
+  type: noun
+- dutch: oog
+  english: eye
+  example: Mijn linker oog is groen. (My left eye is green.)
+  type: noun
+- dutch: neus
+  english: nose
+  example: Ik ruik bloemen met mijn neus. (I smell flowers with my nose.)
+  type: noun
+- dutch: mond
+  english: mouth
+  example: Eet je eten met je mond dicht. (Eat your food with your mouth closed.)
+  type: noun
+- dutch: vinger
+  english: finger
+  example: Ik heb een wond aan mijn vinger. (I have a wound on my finger.)
+  type: noun
+- dutch: teen
+  english: toe
+  example: Ik heb mijn teen gestoten. (I bumped my toe.)
+  type: noun
+- dutch: aarde
+  english: earth
+  example: De aarde is onze thuis. (The earth is our home.)
+  type: noun
+- dutch: keuken
+  english: kitchen
+  example: De keuken is netjes. (The kitchen is tidy.)
+  type: noun
+- dutch: tafel
+  english: table
+  example: We eten aan de tafel. (We eat at the table.)
+  type: noun
+- dutch: stoel
+  english: chair
+  example: De stoel is comfortabel. (The chair is comfortable.)
+  type: noun
+- dutch: bed
+  english: bed
+  example: Ik slaap graag in een zacht bed. (I like to sleep in a soft bed.)
+  type: noun
+- dutch: badkamer
+  english: bathroom
+  example: De badkamer is klein maar schoon. (The bathroom is small but clean.)
+  type: noun
+- dutch: aap
+  english: monkey
+  example: De aap klimt in de boom. (The monkey is climbing the tree.)
+  type: noun
+- dutch: vogel
+  english: bird
+  example: De vogel zingt in de ochtend. (The bird sings in the morning.)
+  type: noun
+- dutch: vis
+  english: fish
+  example: Ik hou van vissen. (I love fishing.)
+  type: noun
+- dutch: hond
+  english: dog
+  example: Mijn hond is erg speels. (My dog is very playful.)
+  type: noun
+- dutch: kat
+  english: cat
+  example: De kat ligt op de bank. (The cat is lying on the couch.)
+  type: noun
+- dutch: paard
+  english: horse
+  example: Het paard galoppeert in het veld. (The horse is galloping in the field.)
+  type: noun
+- dutch: koe
+  english: cow
+  example: De koe staat in de wei. (The cow is in the meadow.)
+  type: noun
+- dutch: schaap
+  english: sheep
+  example: Het schaap graast in het gras. (The sheep is grazing in the grass.)
+  type: noun
+- dutch: boom
+  english: tree
+  example: De boom heeft veel bladeren. (The tree has many leaves.)
+  type: noun
+- dutch: blok
+  english: block
+  example: Het kind speelt met blokken. (The child is playing with blocks.)
+  type: noun
+- dutch: bal
+  english: ball
+  example: We spelen voetbal in het park. (We play soccer in the park.)
+  type: noun
+- dutch: vliegtuig
+  english: airplane
+  example: Het vliegtuig vliegt hoog in de lucht. (The airplane is flying high in the sky.)
+  type: noun
+- dutch: trein
+  english: train
+  example: Ik neem de trein naar het werk. (I take the train to work.)
+  type: noun
+- dutch: bus
+  english: bus
+  example: De bus stopt bij de halte. (The bus stops at the station.)
+  type: noun
+- dutch: fiets
+  english: bicycle
+  example: Ik fiets naar mijn werk. (I bike to my work.)
+  type: noun
+- dutch: auto
+  english: car
+  example: Mijn auto is rood. (My car is red.)
+  type: noun
+- dutch: boot
+  english: boat
+  example: We varen met de boot op het meer. (We sail on the lake with the boat.)
+  type: noun
+- dutch: zee
+  english: sea
+  example: De zee is kalm vandaag. (The sea is calm today.)
+  type: noun
+- dutch: rivier
+  english: river
+  example: De rivier stroomt snel. (The river is flowing fast.)
+  type: noun
+- dutch: meer
+  english: lake
+  example: Er zijn eenden in het meer. (There are ducks in the lake.)
+  type: noun
+- dutch: berg
+  english: mountain
+  example: De berg is bedekt met sneeuw. (The mountain is covered with snow.)
+  type: noun
+- dutch: dal
+  english: valley
+  example: Het dal is groen en vruchtbaar. (The valley is green and fertile.)
+  type: noun
+- dutch: strand
+  english: beach
+  example: We gaan naar het strand om te zonnebaden. (We go to the beach to sunbathe.)
+  type: noun
+- dutch: huis
+  english: house
+  example: Het huis is groot. (The house is big.)
+  type: noun
+- dutch: straat
+  english: street
+  example: De straat is druk met verkeer. (The street is busy with traffic.)
+  type: noun
+- dutch: dorp
+  english: village
+  example: Het dorp is klein maar gezellig. (The village is small but cozy.)
+  type: noun
+- dutch: stad
+  english: city
+  example: Amsterdam is een mooie stad. (Amsterdam is a beautiful city.)
+  type: noun
+- dutch: land
+  english: country
+  example: Nederland is een klein land. (The Netherlands is a small country.)
+  type: noun
+- dutch: wereld
+  english: world
+  example: De wereld is groot en divers. (The world is big and diverse.)
+  type: noun
+- dutch: weer
+  english: weather
+  example: Het weer is vandaag zonnig. (The weather is sunny today.)
+  type: noun
+- dutch: wind
+  english: wind
+  example: De wind waait hard. (The wind is blowing hard.)
+  type: noun
+- dutch: regen
+  english: rain
+  example: We hebben een paraplu nodig in de regen. (We need an umbrella in the rain.)
+  type: noun
+- dutch: sneeuw
+  english: snow
+  example: Er ligt veel sneeuw in de bergen. (There is a lot of snow in the mountains.)
+  type: noun
+- dutch: zonneschijn
+  english: sunshine
+  example: Ik hou van de warme zonneschijn. (I love the warm sunshine.)
+  type: noun
+- dutch: maand
+  english: month
+  example: We gaan volgende maand op vakantie. (We are going on vacation next month.)
+  type: noun
+- dutch: jaar
+  english: year
+  example: Het nieuwe jaar begint op 1 januari. (The new year starts on January 1st.)
+  type: noun
+- dutch: tijd
+  english: time
+  example: Ik heb geen tijd. (I don't have time.)
+  type: noun
+- dutch: uur
+  english: hour
+  example: De vergadering begint over een uur. (The meeting starts in an hour.)
+  type: noun
+- dutch: minuut
+  english: minute
+  example: Ik kom over vijf minuten terug. (I'll be back in five minutes.)
+  type: noun
+- dutch: seconde
+  english: second
+  example: De wedstrijd eindigde in de laatste seconde. (The game ended in the last second.)
+  type: noun
+- dutch: ochtend
+  english: morning
+  example: Goedemorgen! (Good morning!)
+  type: noun
+- dutch: middag
+  english: afternoon
+  example: We zien elkaar vanmiddag. (We'll see each other this afternoon.)
+  type: noun
+- dutch: avond
+  english: evening
+  example: Ik ga graag wandelen in de avond. (I like to go for a walk in the evening.)
+  type: noun
+- dutch: nacht
+  english: night
+  example: De sterren zijn helder vanavond in de nacht. (The stars are bright tonight in the night.)
+  type: noun
+- dutch: eten
+  english: food
+  example: Ik hou van lekker eten. (I love delicious food.)
+  type: noun
+- dutch: drinken
+  english: drink
+  example: Mag ik iets te drinken bestellen? (Can I order something to drink?)
+  type: noun
+- dutch: vlees
+  english: meat
+  example: Ik eet geen vlees. (I don't eat meat.)
+  type: noun
+- dutch: groente
+  english: vegetable
+  example: Ik eet graag verse groenten. (I like to eat fresh vegetables.)
+  type: noun
+- dutch: fruit
+  english: fruit
+  example: Ik heb een stuk fruit als tussendoortje. (I have a piece of fruit as a snack.)
+  type: noun
+- dutch: brood
+  english: bread
+  example: Ik eet graag bruin brood. (I like to eat brown bread.)
+  type: noun
+- dutch: rijst
+  english: rice
+  example: We eten vanavond rijst met groenten. (We are having rice with vegetables tonight.)
+  type: noun
+- dutch: pasta
+  english: pasta
+  example: Ik maak graag pasta met tomatensaus. (I like to make pasta with tomato sauce.)
+  type: noun
+- dutch: melk
+  english: milk
+  example: Mag ik een glas melk, alstublieft? (Can I have a glass of milk, please?)
+  type: noun
+- dutch: koffie
+  english: coffee
+  example: Ik drink graag een kopje koffie in de ochtend. (I like to have a cup of coffee in the morning.)
+  type: noun
+- dutch: thee
+  english: tea
+  example: Neem je thee met suiker? (Do you take your tea with sugar?)
+  type: noun
+- dutch: sap
+  english: juice
+  example: Sinaasappelsap is mijn favoriet. (Orange juice is my favorite.)
+  type: noun
+- dutch: bier
+  english: beer
+  example: Ik bestel een biertje op het terras. (I'll order a beer on the terrace.)
+  type: noun
+- dutch: wijn
+  english: wine
+  example: Een glas rode wijn alstublieft. (A glass of red wine, please.)
+  type: noun
+- dutch: kaas
+  english: cheese
+  example: Nederland is bekend om zijn kaas. (The Netherlands is famous for its cheese.)
+  type: noun
+- dutch: boter
+  english: butter
+  example: Ik smeer boter op mijn brood. (I spread butter on my bread.)
+  type: noun
+- dutch: ei
+  english: egg
+  example: Kook je het ei hard of zacht? (Are you boiling the egg hard or soft?)
+  type: noun
+- dutch: suiker
+  english: sugar
+  example: Ik gebruik suiker in mijn koffie. (I use sugar in my coffee.)
+  type: noun
+- dutch: zout
+  english: salt
+  example: Een snufje zout maakt het gerecht beter. (A pinch of salt makes the dish better.)
+  type: noun
+- dutch: peper
+  english: pepper
+  example: Ik hou van peper op mijn pizza. (I like pepper on my pizza.)
+  type: noun
+- dutch: kruid
+  english: spice
+  example: Kaneel is een heerlijk kruid. (Cinnamon is a delicious spice.)
+  type: noun
+- dutch: soep
+  english: soup
+  example: Ik maak graag groentesoep. (I like to make vegetable soup.)
+  type: noun
+- dutch: zoutjes
+  english: snacks
+  example: We hebben zoutjes voor bij de borrel. (We have snacks for the drink.)
+  type: noun
+- dutch: ijs
+  english: ice cream
+  example: Ik neem een bolletje ijs als toetje. (I'll have a scoop of ice cream for dessert.)
+  type: noun
+- dutch: cake
+  english: cake
+  example: Ik bak een lekkere cake. (I'm baking a delicious cake.)
+  type: noun
+- dutch: taart
+  english: pie
+  example: We vieren het met taart. (We're celebrating with pie.)
+  type: noun
+- dutch: koekjes
+  english: cookies
+  example: Bij de thee hebben we koekjes. (We have cookies with tea.)
+  type: noun
+- dutch: snoep
+  english: candy
+  example: Mag ik wat snoep? (Can I have some candy?)
+  type: noun
+- dutch: chocolade
+  english: chocolate
+  example: Chocolade maakt me gelukkig. (Chocolate makes me happy.)
+  type: noun
+- dutch: fruit
+  english: fruit
+  example: Ik heb een stuk fruit als tussendoortje. (I have a piece of fruit as a snack.)
+  type: noun
+- dutch: groente
+  english: vegetable
+  example: Ik eet graag verse groenten. (I like to eat fresh vegetables.)
+  type: noun
+- dutch: aardappel
+  english: potato
+  example: We eten gebakken aardappelen bij het diner. (We have fried potatoes for dinner.)
+  type: noun
+- dutch: tomaat
+  english: tomato
+  example: Ik maak een salade met tomaten. (I'm making a salad with tomatoes.)
+  type: noun
+- dutch: komkommer
+  english: cucumber
+  example: Ik doe komkommer in mijn salade. (I put cucumber in my salad.)
+  type: noun
+- dutch: wortel
+  english: carrot
+  example: Wortels zijn goed voor je ogen. (Carrots are good for your eyes.)
+  type: noun
+- dutch: ui
+  english: onion
+  example: Ik snijd een ui voor de saus. (I'm chopping an onion for the sauce.)
+  type: noun
+- dutch: knoflook
+  english: garlic
+  example: Ik gebruik knoflook om te koken. (I use garlic for cooking.)
+  type: noun
+- dutch: paprika
+  english: bell pepper
+  example: De paprika is rood en zoet. (The bell pepper is red and sweet.)
+  type: noun
+- dutch: broccoli
+  english: broccoli
+  example: Broccoli is gezond en lekker. (Broccoli is healthy and tasty.)
+  type: noun
+- dutch: bloemkool
+  english: cauliflower
+  example: Ik maak bloemkoolsoep. (I'm making cauliflower soup.)
+  type: noun
+- dutch: boontjes
+  english: beans
+  example: Boontjes zijn een goede bron van eiwitten. (Beans are a good source of protein.)
+  type: noun
+- dutch: appel
+  english: apple
+  example: Een appel per dag houdt de dokter weg. (An apple a day keeps the doctor away.)
+  type: noun
+- dutch: peer
+  english: pear
+  example: Ik eet een sappige peer. (I'm eating a juicy pear.)
+  type: noun
+- dutch: banaan
+  english: banana
+  example: Een banaan is een handig tussendoortje. (A banana is a handy snack.)
+  type: noun
+- dutch: sinaasappel
+  english: orange
+  example: Ik pers verse sinaasappelsap. (I'm squeezing fresh orange juice.)
+  type: noun
+- dutch: aardbei
+  english: strawberry
+  example: Ik hou van aardbeien in de zomer. (I love strawberries in the summer.)
+  type: noun
+- dutch: druif
+  english: grape
+  example: De druiven zijn zoet en sappig. (The grapes are sweet and juicy.)
+  type: noun
+- dutch: meloen
+  english: melon
+  example: Watermeloen is verfrissend op een warme dag. (Watermelon is refreshing on a hot day.)
+  type: noun
+- dutch: perzik
+  english: peach
+  example: De perziken zijn rijp en zoet. (The peaches are ripe and sweet.)
+  type: noun
+- dutch: framboos
+  english: raspberry
+  example: Ik pluk frambozen in de tuin. (I'm picking raspberries in the garden.)
+  type: noun
+- dutch: aubergine
+  english: eggplant
+  example: Ik maak gegrilde aubergine. (I'm making grilled eggplant.)
+  type: noun
+- dutch: courgette
+  english: zucchini
+  example: We maken een courgettesoep. (We're making zucchini soup.)
+  type: noun
+- dutch: champignon
+  english: mushroom
+  example: Ik voeg champignons toe aan de saus. (I'm adding mushrooms to the sauce.)
+  type: noun
+- dutch: chocola
+  english: chocolate
+  example: Mag ik een stukje chocola? (Can I have a piece of chocolate?)
+  type: noun
+- dutch: traktatie
+  english: treat
+  example: We hebben een lekkere traktatie voor de kinderen. (We have a delicious treat for the kids.)
+  type: noun
+- dutch: recept
+  english: recipe
+  example: Ik heb een nieuw recept om te proberen. (I have a new recipe to try.)
+  type: noun
+- dutch: bord
+  english: plate
+  example: Ik zet het eten op het bord. (I'm putting the food on the plate.)
+  type: noun
+- dutch: vork
+  english: fork
+  example: Gebruik je een vork of een lepel? (Are you using a fork or a spoon?)
+  type: noun
+- dutch: lepel
+  english: spoon
+  example: Roer de soep met een lepel. (Stir the soup with a spoon.)
+  type: noun
+- dutch: mes
+  english: knife
+  example: Het mes snijdt goed. (The knife cuts well.)
+  type: noun
+- dutch: glas
+  english: glass
+  example: Schenk het drinken in een glas. (Pour the drink into a glass.)
+  type: noun
+- dutch: kop
+  english: cup
+  example: Ik drink thee uit een kop. (I drink tea from a cup.)
+  type: noun
+- dutch: schotel
+  english: saucer
+  example: Het kopje staat op een schotel. (The cup is on a saucer.)
+  type: noun
+- dutch: bestek
+  english: cutlery
+  example: Het bestek ligt naast het bord. (The cutlery is next to the plate.)
+  type: noun
+- dutch: keuken
+  english: kitchen
+  example: De keuken is netjes. (The kitchen is tidy.)
+  type: noun
+- dutch: pan
+  english: pan
+  example: Ik bak een ei in de pan. (I'm frying an egg in the pan.)
+  type: noun
+- dutch: oven
+  english: oven
+  example: De taart staat in de oven. (The cake is in the oven.)
+  type: noun
+- dutch: magnetron
+  english: microwave
+  example: Warm het eten op in de magnetron. (Heat the food in the microwave.)
+  type: noun
+- dutch: koelkast
+  english: refrigerator
+  example: Bewaar de melk in de koelkast. (Store the milk in the refrigerator.)
+  type: noun
+- dutch: vriezer
+  english: freezer
+  example: Ik bewaar het ijs in de vriezer. (I keep the ice cream in the freezer.)
+  type: noun
+- dutch: fornuis
+  english: stove
+  example: Het fornuis heeft vier pitten. (The stove has four burners.)
+  type: noun
+- dutch: vaatwasser
+  english: dishwasher
+  example: Ik zet de vieze vaat in de vaatwasser. (I put the dirty dishes in the dishwasher.)
+  type: noun
+- dutch: afval
+  english: waste
+  example: Gooi het afval in de prullenbak. (Throw the waste in the trash can.)
+  type: noun
+- dutch: servet
+  english: napkin
+  example: Leg een servet op je schoot. (Put a napkin on your lap.)
+  type: noun
+- dutch: maaltijd
+  english: meal
+  example: We eten samen de maaltijd. (We eat the meal together.)
+  type: noun
+- dutch: ontbijt
+  english: breakfast
+  example: Ontbijt is de belangrijkste maaltijd van de dag. (Breakfast is the most important meal of the day.)
+  type: noun
+- dutch: lunch
+  english: lunch
+  example: We hebben een lichte lunch. (We have a light lunch.)
+  type: noun
+- dutch: diner
+  english: dinner
+  example: We gaan uit eten voor het diner. (We are going out for dinner.)
+  type: noun
+- dutch: toetje
+  english: dessert
+  example: Ik neem een ijsje als toetje. (I'll have ice cream for dessert.)
+  type: noun
+- dutch: hapje
+  english: snack
+  example: We hebben wat hapjes voor bij de borrel. (We have some snacks for the drink.)
+  type: noun
+- dutch: honger
+  english: hunger
+  example: Ik heb honger, ik wil iets eten. (I'm hungry, I want to eat something.)
+  type: noun
+- dutch: dorst
+  english: thirst
+  example: Na het sporten heb ik veel dorst. (After exercising, I'm very thirsty.)
+  type: noun
+- dutch: smaak
+  english: taste
+  example: Iedereen heeft een andere smaak. (Everyone has a different taste.)
+  type: noun
+- dutch: recept
+  english: recipe
+  example: Ik heb een nieuw recept om te proberen. (I have a new recipe to try.)
+  type: noun
+- dutch: koken
+  english: cooking
+  example: Koken is een leuke hobby. (Cooking is a fun hobby.)
+  type: noun
+- dutch: bakken
+  english: baking
+  example: Ik hou van bakken. (I love baking.)
+  type: noun
+- dutch: boodschappen
+  english: groceries
+  example: Ik ga boodschappen doen. (I'm going grocery shopping.)
+  type: noun
+- dutch: markt
+  english: market
+  example: Ik koop groenten op de markt. (I buy vegetables at the market.)
+  type: noun
+- dutch: supermarkt
+  english: supermarket
+  example: De supermarkt heeft alles wat je nodig hebt. (The supermarket has everything you need.)
+  type: noun
+- dutch: menu
+  english: menu
+  example: We hebben een uitgebreid menu. (We have an extensive menu.)
+  type: noun
+- dutch: ober
+  english: waiter
+  example: De ober brengt het eten naar de tafel. (The waiter brings the food to the table.)
+  type: noun
+- dutch: serveerster
+  english: waitress
+  example: De serveerster is vriendelijk. (The waitress is friendly.)
+  type: noun
+- dutch: fooi
+  english: tip
+  example: Ik geef altijd een fooi als de service goed is. (I always give a tip if the service is good.)
+  type: noun
+- dutch: restaurant
+  english: restaurant
+  example: We gaan uit eten in een nieuw restaurant. (We are going out to eat at a new restaurant.)
+  type: noun
+- dutch: cafe
+  english: cafe
+  example: Laten we iets drinken in het cafe. (Let's have a drink at the cafe.)
+  type: noun
+- dutch: bar
+  english: bar
+  example: We gaan naar een gezellige bar. (We're going to a cozy bar.)
+  type: noun
+- dutch: terras
+  english: terrace
+  example: We zitten op het terras in de zon. (We're sitting on the terrace in the sun.)
+  type: noun
+- dutch: feest
+  english: party
+  example: We hebben een feestje vanavond. (We have a party tonight.)
+  type: noun
+- dutch: verjaardag
+  english: birthday
+  example: Het is mijn verjaardag vandaag. (It's my birthday today.)
+  type: noun
+- dutch: bruiloft
+  english: wedding
+  example: We gaan naar een bruiloft. (We're going to a wedding.)
+  type: noun
+- dutch: jubileum
+  english: anniversary
+  example: Het is ons 25-jarig jubileum. (It's our 25th anniversary.)
+  type: noun
+- dutch: cadeau
+  english: gift
+  example: Ik heb een cadeau voor je. (I have a gift for you.)
+  type: noun
+- dutch: kaart
+  english: card
+  example: Ik schrijf een kaart voor de jarige. (I'm writing a card for the birthday person.)
+  type: noun
+- dutch: ballon
+  english: balloon
+  example: De kinderen hebben ballonnen op het feest. (The children have balloons at the party.)
+  type: noun
+- dutch: muziek
+  english: music
+  example: We dansen op de muziek. (We're dancing to the music.)
+  type: noun
+- dutch: dans
+  english: dance
+  example: Ik hou van dansen. (I love dancing.)
+  type: noun
+- dutch: zang
+  english: singing
+  example: Ze heeft een mooie zangstem. (She has a beautiful singing voice.)
+  type: noun
+- dutch: film
+  english: movie
+  example: We kijken een spannende film. (We're watching an exciting movie.)
+  type: noun
+- dutch: theater
+  english: theater
+  example: We gaan naar het theater voor een toneelstuk. (We're going to the theater for a play.)
+  type: noun
+- dutch: kunst
+  english: art
+  example: Ik hou van moderne kunst. (I love modern art.)
+  type: noun
+- dutch: schilderij
+  english: painting
+  example: Het schilderij hangt aan de muur. (The painting is hanging on the wall.)
+  type: noun
+- dutch: tentoonstelling
+  english: exhibition
+  example: We bezoeken een tentoonstelling van hedendaagse kunst. (We're visiting an exhibition of contemporary art.)
+  type: noun
+- dutch: museum
+  english: museum
+  example: We gaan naar het Rijksmuseum. (We're going to the Rijksmuseum.)
+  type: noun
+- dutch: boek
+  english: book
+  example: Ik lees een interessant boek. (I am reading an interesting book.)
+  type: noun
+- dutch: tijdschrift
+  english: magazine
+  example: Ik koop een tijdschrift voor in het vliegtuig. (I'm buying a magazine for the plane.)
+  type: noun
+- dutch: krant
+  english: newspaper
+  example: Ik lees het nieuws in de krant. (I read the news in the newspaper.)
+  type: noun
+- dutch: schrijver
+  english: writer
+  example: De schrijver heeft veel boeken geschreven. (The writer has written many books.)
+  type: noun
+- dutch: lezer
+  english: reader
+  example: Ik ben een fervent lezer. (I am an avid reader.)
+  type: noun
+- dutch: bibliotheek
+  english: library
+  example: Ik leen boeken uit de bibliotheek. (I borrow books from the library.)
+  type: noun
+- dutch: pen
+  english: pen
+  example: Mag ik een pen lenen? (Can I borrow a pen?)
+  type: noun
+- dutch: potlood
+  english: pencil
+  example: Het potlood is scherp. (The pencil is sharp.)
+  type: noun
+- dutch: papier
+  english: paper
+  example: Ik schrijf een brief op papier. (I write a letter on paper.)
+  type: noun
+- dutch: kleurpotlood
+  english: colored pencil
+  example: De kinderen tekenen met kleurpotloden. (The children are drawing with colored pencils.)
+  type: noun
+- dutch: verf
+  english: paint
+  example: De kunstenaar gebruikt verf op het doek. (The artist uses paint on the canvas.)
+  type: noun
+- dutch: penseel
+  english: brush
+  example: Ik schilder met een penseel. (I paint with a brush.)
+  type: noun
+- dutch: pot verf
+  english: paint pot
+  example: Er staat een pot verf op de tafel. (There is a paint pot on the table.)
+  type: noun
+- dutch: fotocamera
+  english: camera
+  example: Ik neem foto's met mijn fotocamera. (I take pictures with my camera.)
+  type: noun
+- dutch: telefoon
+  english: phone
+  example: Ik maak een foto met mijn telefoon. (I take a photo with my phone.)
+  type: noun
+- dutch: computer
+  english: computer
+  example: Ik bewerk foto's op mijn computer. (I edit photos on my computer.)
+  type: noun
+- dutch: laptop
+  english: laptop
+  example: Ik neem mijn laptop mee naar het werk. (I take my laptop to work.)
+  type: noun
+- dutch: scherm
+  english: screen
+  example: Het scherm van mijn telefoon is kapot. (The screen of my phone is broken.)
+  type: noun
+- dutch: toetsenbord
+  english: keyboard
+  example: Ik typ snel op het toetsenbord. (I type fast on the keyboard.)
+  type: noun
+- dutch: muis
+  english: mouse
+  example: Ik beweeg de muis over het scherm. (I move the mouse over the screen.)
+  type: noun
+- dutch: internet
+  english: internet
+  example: Ik zoek informatie op internet. (I search for information on the internet.)
+  type: noun
+- dutch: website
+  english: website
+  example: Ik bezoek een interessante website. (I'm visiting an interesting website.)
+  type: noun
+- dutch: spel
+  english: game
+  example: We spelen een leuk spel. (We're playing a fun game.)
+  type: noun
+- dutch: sport
+  english: sport
+  example: Voetbal is een populaire sport. (Football is a popular sport.)
+  type: noun
+- dutch: voetbal
+  english: soccer
+  example: We kijken naar een voetbalwedstrijd. (We're watching a soccer match.)
+  type: noun
+- dutch: tennis
+  english: tennis
+  example: Ik speel graag tennis in het weekend. (I like to play tennis on the weekend.)
+  type: noun
+- dutch: basketbal
+  english: basketball
+  example: Hij speelt basketbal in het schoolteam. (He plays basketball in the school team.)
+  type: noun
+- dutch: zwemmen
+  english: swimming
+  example: We gaan zwemmen in het zwembad. (We're going swimming in the pool.)
+  type: noun
+- dutch: fietsen
+  english: cycling
+  example: We maken een fietstocht in het bos. (We're going on a bike ride in the forest.)
+  type: noun
+- dutch: wandelen
+  english: hiking
+  example: We gaan wandelen in de bergen. (We're going hiking in the mountains.)
+  type: noun
+- dutch: yoga
+  english: yoga
+  example: Ik doe aan yoga om te ontspannen. (I do yoga to relax.)
+  type: noun
+- dutch: dansen
+  english: dancing
+  example: Ze doet aan klassiek ballet. (She does classical ballet.)
+  type: noun
+- dutch: zingen
+  english: singing
+  example: Hij zingt in een koor. (He sings in a choir.)
+  type: noun
+- dutch: muziek
+  english: music
+  example: We luisteren naar muziek op de radio. (We're listening to music on the radio.)
+  type: noun
+- dutch: film
+  english: movie
+  example: We kijken een romantische film. (We're watching a romantic movie.)
+  type: noun
+- dutch: kunst
+  english: art
+  example: We gaan naar een kunsttentoonstelling. (We're going to an art exhibition.)
+  type: noun
+- dutch: theater
+  english: theater
+  example: We hebben kaartjes voor het theater. (We have tickets for the theater.)
+  type: noun
+- dutch: lezen
+  english: reading
+  example: Ik lees graag boeken. (I enjoy reading books.)
+  type: noun
+- dutch: schrijven
+  english: writing
+  example: Ze schrijft gedichten in haar vrije tijd. (She writes poems in her free time.)
+  type: noun
+- dutch: tekenen
+  english: drawing
+  example: Hij is goed in tekenen. (He is good at drawing.)
+  type: noun
+- dutch: schilderen
+  english: painting
+  example: Ze schildert met olieverf. (She paints with oil paint.)
+  type: noun
+- dutch: fotografie
+  english: photography
+  example: Fotografie is haar passie. (Photography is her passion.)
+  type: noun
+- dutch: sporten
+  english: sports
+  example: We beoefenen verschillende sporten in de sportschool. (We practice various sports at the gym.)
+  type: noun
+- dutch: evenement
+  english: event
+  example: Er is een groot evenement in de stad. (There is a big event in the city.)
+  type: noun
+- dutch: vakantie
+  english: vacation
+  example: We gaan op vakantie naar Spanje. (We're going on vacation to Spain.)
+  type: noun
+- dutch: reizen
+  english: travel
+  example: Ze houdt van reizen en nieuwe plekken ontdekken. (She loves to travel and discover new places.)
+  type: noun
+- dutch: avontuur
+  english: adventure
+  example: Ik ben op zoek naar avontuur. (I'm looking for adventure.)
+  type: noun
+- dutch: hotel
+  english: hotel
+  example: We verblijven in een luxe hotel. (We're staying in a luxury hotel.)
+  type: noun
+- dutch: camping
+  english: camping
+  example: We gaan kamperen in de natuur. (We're going camping in nature.)
+  type: noun
+- dutch: strand
+  english: beach
+  example: We ontspannen op het strand. (We relax on the beach.)
+  type: noun
+- dutch: bergen
+  english: mountains
+  example: We gaan wandelen in de bergen. (We're going hiking in the mountains.)
+  type: noun
+- dutch: zee
+  english: sea
+  example: We gaan zeilen op zee. (We're going sailing on the sea.)
+  type: noun
+- dutch: natuur
+  english: nature
+  example: Ik hou van de schoonheid van de natuur. (I love the beauty of nature.)
+  type: noun
+- dutch: dieren
+  english: animals
+  example: We zien wilde dieren in het bos. (We see wild animals in the forest.)
+  type: noun
+- dutch: vogel
+  english: bird
+  example: Ik hoor een vogel zingen. (I hear a bird singing.)
+  type: noun
+- dutch: hond
+  english: dog
+  example: De hond rent door het park. (The dog is running through the park.)
+  type: noun
+- dutch: kat
+  english: cat
+  example: De kat slaapt op de vensterbank. (The cat is sleeping on the windowsill.)
+  type: noun
+- dutch: paard
+  english: horse
+  example: Ik rijd graag paard in mijn vrije tijd. (I like to ride horses in my free time.)
+  type: noun
+- dutch: vis
+  english: fish
+  example: We eten gebakken vis vanavond. (We're having fried fish tonight.)
+  type: noun
+- dutch: insect
+  english: insect
+  example: Er zit een insect op het raam. (There is an insect on the window.)
+  type: noun
+- dutch: bos
+  english: forest
+  example: We maken een wandeling in het bos. (We're going for a walk in the forest.)
+  type: noun
+- dutch: rivier
+  english: river
+  example: We picknicken aan de oever van de rivier. (We're having a picnic by the river bank.)
+  type: noun
+- dutch: meer
+  english: lake
+  example: We varen met een bootje op het meer. (We're boating on the lake.)
+  type: noun
+- dutch: waterval
+  english: waterfall
+  example: De waterval is indrukwekkend. (The waterfall is impressive.)
+  type: noun
+- dutch: strand
+  english: beach
+  example: We ontspannen op het strand. (We relax on the beach.)
+  type: noun
+- dutch: zonsondergang
+  english: sunset
+  example: De zonsondergang is prachtig vanaf dit punt. (The sunset is beautiful from this spot.)
+  type: noun
+- dutch: zonsopgang
+  english: sunrise
+  example: We staan vroeg op om de zonsopgang te zien. (We get up early to see the sunrise.)
+  type: noun
+- dutch: regen
+  english: rain
+  example: We hebben een regenachtige dag. (We have a rainy day.)
+  type: noun
+- dutch: sneeuw
+  english: snow
+  example: We spelen in de sneeuw. (We're playing in the snow.)
+  type: noun
+- dutch: wind
+  english: wind
+  example: Het waait hard vandaag. (It's windy today.)
+  type: noun
+- dutch: klimaat
+  english: climate
+  example: Het klimaat in dit land is warm. (The climate in this country is warm.)
+  type: noun
+- dutch: weer
+  english: weather
+  example: Het weer is wisselvallig. (The weather is changeable.)
+  type: noun
+- dutch: seizoen
+  english: season
+  example: We genieten van het zomerseizoen. (We're enjoying the summer season.)
+  type: noun
+- dutch: lente
+  english: spring
+  example: De bloemen bloeien in de lente. (The flowers bloom in spring.)
+  type: noun
+- dutch: zomer
+  english: summer
+  example: We gaan naar het strand in de zomer. (We go to the beach in the summer.)
+  type: noun
+- dutch: herfst
+  english: autumn
+  example: De bladeren vallen van de bomen in de herfst. (The leaves fall from the trees in autumn.)
+  type: noun
+- dutch: winter
+  english: winter
+  example: We bouwen een sneeuwpop in de winter. (We build a snowman in winter.)
+  type: noun
+- dutch: feestdag
+  english: holiday
+  example: We vieren Kerstmis als een feestdag. (We celebrate Christmas as a holiday.)
+  type: noun
+- dutch: nieuwjaar
+  english: New Year
+  example: We wensen elkaar een gelukkig nieuwjaar. (We wish each other a happy New Year.)
+  type: noun
+- dutch: Pasen
+  english: Easter
+  example: We verstoppen paaseieren in de tuin. (We hide Easter eggs in the garden.)
+  type: noun
+- dutch: verjaardag
+  english: birthday
+  example: Het is mijn verjaardag vandaag. (It's my birthday today.)
+  type: noun
+- dutch: bruiloft
+  english: wedding
+  example: We gaan naar een bruiloft. (We're going to a wedding.)
+  type: noun
+- dutch: vaderdag
+  english: Father's Day
+  example: We geven een cadeau aan papa op Vaderdag. (We give a gift to dad on Father's Day.)
+  type: noun
+- dutch: moederdag
+  english: Mother's Day
+  example: We verwennen mama op Moederdag. (We pamper mom on Mother's Day.)
+  type: noun
+- dutch: Valentijnsdag
+  english: Valentine's Day
+  example: We sturen kaarten op Valentijnsdag. (We send cards on Valentine's Day.)
+  type: noun
+- dutch: Halloween
+  english: Halloween
+  example: We verkleden ons voor Halloween. (We dress up for Halloween.)
+  type: noun
+- dutch: Sinterklaas
+  english: Saint Nicholas
+  example: We zetten onze schoenen klaar voor Sinterklaas. (We put our shoes out for Saint Nicholas.)
+  type: noun
+- dutch: carnaval
+  english: carnival
+  example: We vieren carnaval met een grote optocht. (We celebrate carnival with a big parade.)
+  type: noun
+- dutch: vrijheid
+  english: freedom
+  example: Vrijheid is een kostbaar goed. (Freedom is a precious commodity.)
+  type: noun
+- dutch: vrede
+  english: peace
+  example: We verlangen naar wereldvrede. (We long for world peace.)
+  type: noun
+- dutch: liefde
+  english: love
+  example: Liefde maakt het leven mooi. (Love makes life beautiful.)
+  type: noun
+- dutch: geluk
+  english: happiness
+  example: Geluk zit in kleine dingen. (Happiness lies in small things.)
+  type: noun
+- dutch: verdriet
+  english: sadness
+  example: Na het verlies voelde ik veel verdriet. (After the loss, I felt a lot of sadness.)
+  type: noun
+- dutch: angst
+  english: fear
+  example: Ik heb hoogtevrees. (I have a fear of heights.)
+  type: noun
+- dutch: boosheid
+  english: anger
+  example: Zijn boosheid was niet te stoppen. (His anger was unstoppable.)
+  type: noun
+- dutch: hoop
+  english: hope
+  example: Er is altijd hoop, hoe moeilijk de situatie ook is. (There is always hope, no matter how difficult the situation is.)
+  type: noun
+- dutch: geloof
+  english: faith
+  example: Hij heeft een sterk geloof. (He has a strong faith.)
+  type: noun
+- dutch: droom
+  english: dream
+  example: Ik heb een vreemde droom gehad vannacht. (I had a strange dream last night.)
+  type: noun
+- dutch: doel
+  english: goal
+  example: Mijn doel is om een succesvolle ondernemer te worden. (My goal is to become a successful entrepreneur.)
+  type: noun
+- dutch: succes
+  english: success
+  example: Ze viert haar succes met een feestje. (She's celebrating her success with a party.)
+  type: noun
+- dutch: mislukking
+  english: failure
+  example: Na de mislukking gaf hij niet op. (After the failure, he didn't give up.)
+  type: noun
+- dutch: prestatie
+  english: achievement
+  example: Het behalen van zijn diploma was een grote prestatie. (Obtaining his degree was a significant achievement.)
+  type: noun
+- dutch: uitdaging
+  english: challenge
+  example: Het beklimmen van de berg is een echte uitdaging. (Climbing the mountain is a real challenge.)
+  type: noun
+- dutch: moed
+  english: courage
+  example: Zijn moed inspireert anderen. (His courage inspires others.)
+  type: noun
+- dutch: vriendschap
+  english: friendship
+  example: We hebben een sterke vriendschap. (We have a strong friendship.)
+  type: noun
+- dutch: familie
+  english: family
+  example: Familie is belangrijk voor mij. (Family is important to me.)
+  type: noun
+- dutch: relaties
+  english: relationships
+  example: Goede relaties zijn gebaseerd op vertrouwen en respect. (Good relationships are based on trust and respect.)
+  type: noun
+- dutch: liefde
+  english: love
+  example: Liefde maakt het leven mooi. (Love makes life beautiful.)
+  type: noun
+- dutch: huwelijk
+  english: marriage
+  example: Ze vieren hun 25-jarig huwelijk. (They're celebrating their 25th wedding anniversary.)
+  type: noun
+- dutch: scheiding
+  english: divorce
+  example: Na de scheiding zijn ze vrienden gebleven. (After the divorce, they remained friends.)
+  type: noun
+- dutch: gezondheid
+  english: health
+  example: Gezondheid is het belangrijkste in het leven. (Health is the most important thing in life.)
+  type: noun
+- dutch: ziekte
+  english: illness
+  example: Hij heeft een ernstige ziekte. (He has a serious illness.)
+  type: noun
+- dutch: medicijn
+  english: medicine
+  example: Ik neem medicijnen om beter te worden. (I take medicine to get better.)
+  type: noun
+- dutch: ziekenhuis
+  english: hospital
+  example: Hij ligt in het ziekenhuis voor een operatie. (He's in the hospital for surgery.)
+  type: noun
+- dutch: dokter
+  english: doctor
+  example: De dokter geeft me advies over gezond leven. (The doctor gives me advice on healthy living.)
+  type: noun
+- dutch: verpleegster
+  english: nurse
+  example: De verpleegster zorgt goed voor de patiënten. (The nurse takes good care of the patients.)
+  type: noun
+- dutch: tandarts
+  english: dentist
+  example: Ik ga elk halfjaar naar de tandarts voor controle. (I go to the dentist for a checkup every six months.)
+  type: noun
+- dutch: lichaam
+  english: body
+  example: Gezond eten is goed voor je lichaam. (Eating healthy is good for your body.)
+  type: noun
+- dutch: geest
+  english: mind
+  example: Meditatie helpt om de geest te kalmeren. (Meditation helps to calm the mind.)
+  type: noun
+- dutch: ziel
+  english: soul
+  example: Hij is een goed persoon van binnen en van buiten, hij heeft een mooie ziel. (He is a good person inside and out, he has a beautiful soul.)
+  type: noun
+- dutch: emotie
+  english: emotion
+  example: Ze toonde haar emoties tijdens de speech. (She showed her emotions during the speech.)
+  type: noun
+- dutch: gelach
+  english: laughter
+  example: Het gelach van kinderen is zo aanstekelijk. (The laughter of children is so contagious.)
+  type: noun
+- dutch: tranen
+  english: tears
+  example: Ze veegde haar tranen weg met een zakdoek. (She wiped away her tears with a tissue.)
+  type: noun
+- dutch: glimlach
+  english: smile
+  example: Haar glimlach maakt iedereen blij. (Her smile makes everyone happy.)
+  type: noun
+- dutch: schoonheid
+  english: beauty
+  example: De schoonheid van de natuur is adembenemend. (The beauty of nature is breathtaking.)
+  type: noun
+- dutch: mode
+  english: fashion
+  example: Ze heeft een passie voor mode en ontwerpen. (She has a passion for fashion and design.)
+  type: noun
+- dutch: stijl
+  english: style
+  example: Haar stijl is uniek en creatief. (Her style is unique and creative.)
+  type: noun
+- dutch: sieraad
+  english: jewelry
+  example: Ze draagt graag elegante sieraden. (She likes to wear elegant jewelry.)
+  type: noun
+- dutch: horloge
+  english: watch
+  example: Ik draag een mooi horloge om mijn pols. (I wear a beautiful watch on my wrist.)
+  type: noun
+- dutch: tas
+  english: bag
+  example: Ik heb een nieuwe tas gekocht. (I bought a new bag.)
+  type: noun
+- dutch: schoenen
+  english: shoes
+  example: Ze heeft een hele collectie schoenen. (She has a whole collection of shoes.)
+  type: noun
+- dutch: hoed
+  english: hat
+  example: Hij draagt een elegante hoed op het feest. (He's wearing an elegant hat at the party.)
+  type: noun
+- dutch: accessoire
+  english: accessory
+  example: Ze kiest bijpassende accessoires bij haar outfit. (She chooses matching accessories for her outfit.)
+  type: noun
+- dutch: winkel
+  english: shop/store
+  example: We gaan naar de winkel om boodschappen te doen. (We're going to the store to do groceries.)
+  type: noun
+- dutch: markt
+  english: market
+  example: We kopen verse groenten op de markt. (We buy fresh vegetables at the market.)
+  type: noun
+- dutch: kleding
+  english: clothing
+  example: De kledingwinkel heeft een grote collectie. (The clothing store has a large collection.)
+  type: noun
+- dutch: merk
+  english: brand
+  example: Ze koopt graag kleding van dat bekende merk. (She likes to buy clothes from that well-known brand.)
+  type: noun
+- dutch: prijs
+  english: price
+  example: De prijs van het product is redelijk. (The price of the product is reasonable.)
+  type: noun
+- dutch: betaling
+  english: payment
+  example: We doen de betaling met de creditcard. (We're making the payment with the credit card.)
+  type: noun
+- dutch: korting
+  english: discount
+  example: Er is een speciale korting vandaag. (There's a special discount today.)
+  type: noun
+- dutch: pas
+  english: card
+  example: Ze gebruikt haar klantenpas voor extra voordeel. (She uses her customer card for extra benefits.)
+  type: noun
+- dutch: bon
+  english: receipt
+  example: Bewaar de bon voor het geval dat je het wilt ruilen. (Keep the receipt in case you want to exchange it.)
+  type: noun
+- dutch: geld
+  english: money
+  example: Ik betaal met contant geld. (I'm paying with cash.)
+  type: noun
+- dutch: portemonnee
+  english: wallet
+  example: Ze bewaart haar geld in haar portemonnee. (She keeps her money in her wallet.)
+  type: noun
+- dutch: bank
+  english: bank
+  example: Ik doe mijn bankzaken online. (I do my banking online.)
+  type: noun
+- dutch: creditcard
+  english: credit card
+  example: Ik betaal met mijn creditcard. (I'm paying with my credit card.)
+  type: noun
+- dutch: winkelcentrum
+  english: shopping mall
+  example: We gaan naar het winkelcentrum om te winkelen. (We're going to the shopping mall to shop.)
+  type: noun
+- dutch: verkoper
+  english: salesperson
+  example: De verkoper hielp me bij het vinden van de juiste maat. (The salesperson helped me find the right size.)
+  type: noun
+- dutch: klant
+  english: customer
+  example: De klant is koning. (The customer is king.)
+  type: noun
+- dutch: aankoop
+  english: purchase
+  example: Ik heb een nieuwe aankoop gedaan. (I made a new purchase.)
+  type: noun
+- dutch: levering
+  english: delivery
+  example: De levering van het pakket is vandaag. (The delivery of the package is today.)
+  type: noun
+- dutch: internet
+  english: internet
+  example: We hebben snelle internetverbinding thuis. (We have a fast internet connection at home.)
+  type: noun
+- dutch: website
+  english: website
+  example: Deze website heeft veel interessante artikelen. (This website has many interesting articles.)
+  type: noun
+- dutch: social media
+  english: social media
+  example: Ze is actief op verschillende social media platformen. (She's active on various social media platforms.)
+  type: noun
+- dutch: computer
+  english: computer
+  example: Mijn computer werkt niet meer, ik moet hem laten repareren. (My computer is not working anymore, I need to get it repaired.)
+  type: noun
+- dutch: laptop
+  english: laptop
+  example: Ik neem mijn laptop mee op reis. (I take my laptop with me when I travel.)
+  type: noun
+- dutch: smartphone
+  english: smartphone
+  example: De smartphone is onmisbaar in het dagelijks leven. (The smartphone is indispensable in daily life.)
+  type: noun
+- dutch: tablet
+  english: tablet
+  example: Mijn kinderen spelen spelletjes op de tablet. (My children play games on the tablet.)
+  type: noun
+- dutch: app
+  english: app
+  example: Ik heb een nieuwe app gedownload op mijn telefoon. (I downloaded a new app on my phone.)
+  type: noun
+- dutch: socialiseren
+  english: socializing
+  example: We gaan naar een feest om te socialiseren met vrienden. (We're going to a party to socialize with friends.)
+  type: noun
+- dutch: feest
+  english: party
+  example: We vieren zijn verjaardag met een groot feest. (We're celebrating his birthday with a big party.)
+  type: noun
+- dutch: plezier
+  english: fun
+  example: We hebben veel plezier op de kermis. (We have a lot of fun at the fair.)
+  type: noun
+- dutch: spel
+  english: game
+  example: We spelen een leuk spel. (We're playing a fun game.)
+  type: noun
+- dutch: grap
+  english: joke
+  example: Hij vertelde een grappige grap. (He told a funny joke.)
+  type: noun
+- dutch: lachen
+  english: laughter
+  example: Het gelach vulde de kamer. (The laughter filled the room.)
+  type: noun
+- dutch: vrije tijd
+  english: leisure time
+  example: In mijn vrije tijd lees ik graag boeken. (In my leisure time, I enjoy reading books.)
+  type: noun
+- dutch: reizen
+  english: travel
+  example: Ik hou van reizen en nieuwe plekken ontdekken. (I love to travel and discover new places.)
+  type: noun
+- dutch: vakantie
+  english: vacation
+  example: We gaan op vakantie naar Spanje. (We're going on vacation to Spain.)
+  type: noun
+- dutch: avontuur
+  english: adventure
+  example: Ik ben op zoek naar avontuur. (I'm looking for adventure.)
+  type: noun
+- dutch: hobby
+  english: hobby
+  example: Lezen is een van mijn favoriete hobby's. (Reading is one of my favorite hobbies.)
+  type: noun
+- dutch: sport
+  english: sport
+  example: Voetbal is een populaire sport. (Football is a popular sport.)
+  type: noun
+- dutch: voetbal
+  english: soccer
+  example: We kijken naar een voetbalwedstrijd. (We're watching a soccer match.)
+  type: noun
+- dutch: tennis
+  english: tennis
+  example: Ik speel graag tennis in het weekend. (I like to play tennis on the weekend.)
+  type: noun
+- dutch: basketbal
+  english: basketball
+  example: Hij speelt basketbal in het schoolteam. (He plays basketball in the school team.)
+  type: noun
+- dutch: zwemmen
+  english: swimming
+  example: We gaan zwemmen in het zwembad. (We're going swimming in the pool.)
+  type: noun
+- dutch: fietsen
+  english: cycling
+  example: We maken een fietstocht in het bos. (We're going on a bike ride in the forest.)
+  type: noun
+- dutch: wandelen
+  english: hiking
+  example: We gaan wandelen in de bergen. (We're going hiking in the mountains.)
+  type: noun
+- dutch: yoga
+  english: yoga
+  example: Ik doe aan yoga om te ontspannen. (I do yoga to relax.)
+  type: noun
+- dutch: dansen
+  english: dancing
+  example: Ze doet aan klassiek ballet. (She does classical ballet.)
+  type: noun
+- dutch: zingen
+  english: singing
+  example: Hij zingt in een koor. (He sings in a choir.)
+  type: noun
+- dutch: muziek
+  english: music
+  example: We luisteren naar muziek op de radio. (We're listening to music on the radio.)
+  type: noun
+- dutch: film
+  english: movie
+  example: We kijken een romantische film. (We're watching a romantic movie.)
+  type: noun
+- dutch: kunst
+  english: art
+  example: We gaan naar een kunsttentoonstelling. (We're going to an art exhibition.)
+  type: noun
+- dutch: theater
+  english: theater
+  example: We hebben kaartjes voor het theater. (We have tickets for the theater.)
+  type: noun
+- dutch: lezen
+  english: reading
+  example: Ik lees graag boeken. (I enjoy reading books.)
+  type: noun
+- dutch: schrijven
+  english: writing
+  example: Ze schrijft gedichten in haar vrije tijd. (She writes poems in her free time.)
+  type: noun
+- dutch: tekenen
+  english: drawing
+  example: Hij is goed in tekenen. (He is good at drawing.)
+  type: noun
+- dutch: schilderen
+  english: painting
+  example: Ze schildert met olieverf. (She paints with oil paint.)
+  type: noun
+- dutch: fotografie
+  english: photography
+  example: Fotografie is haar passie. (Photography is her passion.)
+  type: noun
+- dutch: sporten
+  english: sports
+  example: We beoefenen verschillende sporten in de sportschool. (We practice various sports at the gym.)
+  type: noun
+- dutch: evenement
+  english: event
+  example: Er is een groot evenement in de stad. (There is a big event in the city.)
+  type: noun

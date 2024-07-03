@@ -47,11 +47,14 @@ func createButton(optionText string, f buttonFunc) *widget.Button {
 			Idle: color.NRGBA{0xdf, 0xf4, 0xff, 0xff},
 		}),
 		widget.ButtonOpts.ClickedHandler(widget.ButtonClickedHandlerFunc(f)),
-		widget.ButtonOpts.TextPadding(widget.Insets{
-			Left:   100,
-			Right:  100,
-			Top:    80,
-			Bottom: 80,
-		}),
+		//widget.ButtonOpts.TextPadding(widget.Insets{
+		//	Left:   100,
+		//	Right:  100,
+		//	Top:    80,
+		//	Bottom: 80,
+		//}),
+		widget.ButtonOpts.WidgetOpts(
+			widget.WidgetOpts.MinSize(300, 200),
+		),
 	)
 }
