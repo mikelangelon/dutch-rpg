@@ -117,7 +117,9 @@ func NewQuestionsUI() *QuestionsUI {
 		),
 	))
 	for _, v := range []string{"Option A", "Option B", "Option C", "Option D"} {
-		b := createButton(v)
+		b := createButton(v, func(args *widget.ButtonClickedEventArgs) {
+			println(args.Button.Text().Label)
+		})
 		buttonsContainer.AddChild(b)
 	}
 	container.AddChild(firstContainer)

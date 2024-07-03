@@ -34,7 +34,7 @@ func NewMenuUI() *MenuUI {
 	)
 	container.AddChild(buttonsContainer)
 	for _, v := range menuOptions {
-		b := createButton(v)
+		b := createButton(v, nil)
 		buttonsContainer.AddChild(b)
 	}
 	return &MenuUI{UI: &ebitenui.UI{

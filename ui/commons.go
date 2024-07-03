@@ -35,7 +35,9 @@ func loadFont(size float64) (font.Face, error) {
 	}), nil
 }
 
-func createButton(optionText string) *widget.Button {
+type buttonFunc func(args *widget.ButtonClickedEventArgs)
+
+func createButton(optionText string, f buttonFunc) *widget.Button {
 	buttonImage, _ := loadButtonImage()
 
 	face, _ := loadFont(40)
@@ -44,6 +46,7 @@ func createButton(optionText string) *widget.Button {
 		widget.ButtonOpts.Text(optionText, face, &widget.ButtonTextColor{
 			Idle: color.NRGBA{0xdf, 0xf4, 0xff, 0xff},
 		}),
+		widget.ButtonOpts.ClickedHandler(widget.ButtonClickedHandlerFunc(f)),
 		widget.ButtonOpts.TextPadding(widget.Insets{
 			Left:   100,
 			Right:  100,
