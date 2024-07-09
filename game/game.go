@@ -28,15 +28,17 @@ type Game struct {
 	CounterCorrect  int
 	currentQuestion core.Question
 
-	Scene *graphics.MapScene
+	Scene  *graphics.MapScene
+	Player *graphics.Char
 }
 
-func NewGame(scene *graphics.MapScene) *Game {
+func NewGame(scene *graphics.MapScene, player *graphics.Char) *Game {
 	return &Game{
 		UI:     ui.NewQuestionsUI(),
 		Words:  parseWords(),
 		Status: statusNextWord,
 		Scene:  scene,
+		Player: player,
 	}
 }
 
@@ -84,6 +86,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 	//bg.Fill(color.RGBA{50, 50, 50, 250})
 	//screen.DrawImage(bg, op)
 	g.Scene.Draw(screen)
+	g.Player.Draw(screen)
 }
 
 func (g *Game) Layout(_, _ int) (int, int) {
