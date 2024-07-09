@@ -46,7 +46,7 @@ func NewQuestionsUI() *QuestionsUI {
 	face, _ := loadFont(40)
 	pointsFont, _ := loadFont(100)
 	container := widget.NewContainer(
-		widget.ContainerOpts.BackgroundImage(image.NewNineSliceColor(color.NRGBA{0, 0, 0, 150})),
+
 		widget.ContainerOpts.Layout(widget.NewGridLayout(
 			widget.GridLayoutOpts.Columns(1),
 			widget.GridLayoutOpts.Stretch([]bool{true}, []bool{true}),
@@ -58,7 +58,6 @@ func NewQuestionsUI() *QuestionsUI {
 		UI: &ebitenui.UI{Container: container},
 	}
 	firstContainer := widget.NewContainer(
-		widget.ContainerOpts.BackgroundImage(image.NewNineSliceColor(color.NRGBA{100, 200, 250, 150})),
 		widget.ContainerOpts.Layout(widget.NewRowLayout(
 			widget.RowLayoutOpts.Direction(widget.DirectionVertical),
 			widget.RowLayoutOpts.Spacing(50),

@@ -4,6 +4,7 @@ import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/mikelangelon/dutchrpg/assets"
 	"github.com/mikelangelon/dutchrpg/core"
+	"github.com/mikelangelon/dutchrpg/graphics"
 	"github.com/mikelangelon/dutchrpg/ui"
 	"gopkg.in/yaml.v3"
 	"log/slog"
@@ -26,13 +27,16 @@ type Game struct {
 	Status          string
 	CounterCorrect  int
 	currentQuestion core.Question
+
+	Scene *graphics.MapScene
 }
 
-func NewGame() *Game {
+func NewGame(scene *graphics.MapScene) *Game {
 	return &Game{
 		UI:     ui.NewQuestionsUI(),
 		Words:  parseWords(),
 		Status: statusNextWord,
+		Scene:  scene,
 	}
 }
 
@@ -74,6 +78,12 @@ func (g *Game) Update() error {
 
 func (g *Game) Draw(screen *ebiten.Image) {
 	g.UI.Draw(screen)
+	//op := &ebiten.DrawImageOptions{}
+	//op.GeoM.Translate(40, 100)
+	//bg := ebiten.NewImage(800, 500)
+	//bg.Fill(color.RGBA{50, 50, 50, 250})
+	//screen.DrawImage(bg, op)
+	g.Scene.Draw(screen)
 }
 
 func (g *Game) Layout(_, _ int) (int, int) {
