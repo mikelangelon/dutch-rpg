@@ -2,8 +2,11 @@ package game
 
 import (
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/mikelangelon/dutchrpg/assets"
 	"github.com/mikelangelon/dutchrpg/core"
 	"github.com/mikelangelon/dutchrpg/ui"
+	"gopkg.in/yaml.v3"
+	"log/slog"
 	"math/rand"
 )
 
@@ -25,10 +28,10 @@ type Game struct {
 	currentQuestion core.Question
 }
 
-func NewGame(words []*core.Word) *Game {
+func NewGame() *Game {
 	return &Game{
 		UI:     ui.NewQuestionsUI(),
-		Words:  words,
+		Words:  parseWords(),
 		Status: statusNextWord,
 	}
 }
@@ -82,4 +85,13 @@ type displayer interface {
 	Draw(screen *ebiten.Image)
 	SetQuestion(question core.Question, points int)
 	GetAnswer() *string
+}
+
+func parseWords() []*core.Word {
+	var words []*core.Word
+	err := yaml.Unmarshal(assets.Nouns, &words)
+	if err != nil {
+		slog.Error("error unmarshalling words", "error", err)
+	}
+	return words
 }

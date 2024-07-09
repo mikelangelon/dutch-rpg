@@ -1,3 +1,7 @@
+run:
+	export GOPROXY=https://proxy.golang.org,direct;unset GOSUMDB;
+	go mod tidy && go mod vendor
+	go run .
 android:
 	export GOPROXY=https://proxy.golang.org,direct;unset GOSUMDB;
 	rm -rf vendor
