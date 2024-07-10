@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	initialMap, err := graphics.NewMapScene(assets.MapPackPNG, assets.InitialMap, assets.MapPackTSX, 1000, 600, 3)
+	initialMap, err := graphics.NewMapScene(assets.MapPackPNG, assets.InitialMap, assets.MapPackTSX, 50*16*3, 600, 3)
 	if err != nil {
 		slog.Error("crash parseTileSet", "error", err)
 		return
@@ -19,7 +19,7 @@ func main() {
 	player := &graphics.Char{
 		ID:     "player",
 		Image:  playerImage,
-		X:      0 * 16,
+		X:      1 * 16,
 		Y:      7 * 16,
 		ScaleX: 3,
 		ScaleY: 3,

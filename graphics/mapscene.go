@@ -18,11 +18,14 @@ type MapScene struct {
 	Image          *ebiten.Image
 	FormattedLayer []formattedLayer
 
+	world                            *ebiten.Image
 	screenWidth, screenHeight, scale int
 
 	Offset           common.Position
 	Child            []*MapScene
 	offsetX, offsetY int64
+
+	Camera Camera
 }
 
 type formattedLayer []int64
@@ -59,6 +62,7 @@ func NewMapScene(mapImage, tmx, tsx []byte, screenWidth, screenHeight, scale int
 		scale:          scale,
 		offsetX:        1,
 		offsetY:        50,
+		world:          ebiten.NewImage(screenWidth, screenHeight),
 	}, nil
 }
 
@@ -76,12 +80,14 @@ func (g *MapScene) Draw(screen *ebiten.Image) {
 			op.GeoM.Translate(float64(tx+g.Offset.X), float64(ty+g.Offset.Y))
 			op.GeoM.Scale(scaleX, scaleY)
 
-			screen.DrawImage(g.tileImage(int(id-1)), op)
+			g.world.DrawImage(g.tileImage(int(id-1)), op)
+			//screen.DrawImage(g.tileImage(int(id-1)), op)
 		}
 	}
-	for _, v := range g.Child {
-		v.Draw(screen)
-	}
+	//for _, v := range g.Child {
+	//	v.Draw(screen)
+	//}
+	g.Camera.Render(g.world, screen)
 }
 
 func (g *MapScene) Scale() (float64, float64) {

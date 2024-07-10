@@ -59,6 +59,9 @@ func (g *Game) prepareQuestion() core.Question {
 	}
 }
 func (g *Game) Update() error {
+	if ebiten.IsKeyPressed(ebiten.KeyD) || ebiten.IsKeyPressed(ebiten.KeyArrowRight) {
+		g.Scene.Camera.Position[0] += 1
+	}
 	switch g.Status {
 	case statusNextWord:
 		g.currentQuestion = g.prepareQuestion()
@@ -70,6 +73,10 @@ func (g *Game) Update() error {
 			if g.currentQuestion.Answer == *answer {
 				g.CounterCorrect++
 				g.Player.X += 16
+				if g.Player.X > 14*16 {
+					g.Scene.Camera.Position[0] += 14 * 3 * 16
+					g.Player.X = 1 * 16
+				}
 			} else {
 				g.CounterCorrect = 0
 			}
