@@ -69,6 +69,7 @@ func (g *Game) Update() error {
 			g.Status = statusNextWord
 			if g.currentQuestion.Answer == *answer {
 				g.CounterCorrect++
+				g.Player.X += 16
 			} else {
 				g.CounterCorrect = 0
 			}
@@ -80,11 +81,6 @@ func (g *Game) Update() error {
 
 func (g *Game) Draw(screen *ebiten.Image) {
 	g.UI.Draw(screen)
-	//op := &ebiten.DrawImageOptions{}
-	//op.GeoM.Translate(40, 100)
-	//bg := ebiten.NewImage(800, 500)
-	//bg.Fill(color.RGBA{50, 50, 50, 250})
-	//screen.DrawImage(bg, op)
 	g.Scene.Draw(screen)
 	g.Player.Draw(screen)
 }
