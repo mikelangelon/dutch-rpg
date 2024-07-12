@@ -16,7 +16,4 @@ var (
 
 	//go:embed initialMap.tmx
 	InitialMap []byte
-
-	//go:embed tiles.png
-	TilesTest []byte
 )

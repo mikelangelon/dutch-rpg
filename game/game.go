@@ -2,12 +2,10 @@ package game
 
 import (
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/mikelangelon/dutchrpg/assets"
 	"github.com/mikelangelon/dutchrpg/core"
 	"github.com/mikelangelon/dutchrpg/graphics"
+	"github.com/mikelangelon/dutchrpg/persistence"
 	"github.com/mikelangelon/dutchrpg/ui"
-	"gopkg.in/yaml.v3"
-	"log/slog"
 	"math/rand"
 )
 
@@ -23,7 +21,7 @@ const (
 
 type Game struct {
 	UI              displayer
-	Words           []*core.Word
+	WordsStore      *persistence.WordStore
 	Status          string
 	CounterCorrect  int
 	currentQuestion core.Question
@@ -34,22 +32,23 @@ type Game struct {
 
 func NewGame(scene *graphics.MapScene, player *graphics.Char) *Game {
 	return &Game{
-		UI:     ui.NewQuestionsUI(),
-		Words:  parseWords(),
-		Status: statusNextWord,
-		Scene:  scene,
-		Player: player,
+		UI:         ui.NewQuestionsUI(),
+		WordsStore: persistence.New(),
+		Status:     statusNextWord,
+		Scene:      scene,
+		Player:     player,
 	}
 }
 
-func (g *Game) randomWord() *core.Word {
-	return g.Words[rand.Intn(len(g.Words))]
-}
 func (g *Game) prepareQuestion() core.Question {
-	w := g.randomWord()
-	option1 := g.randomWord().English
-	option2 := g.randomWord().English
-	option3 := g.randomWord().English
+	difficulty := g.CounterCorrect / 2
+	if difficulty > 8 {
+		difficulty = 8
+	}
+	w := g.WordsStore.WordDifficulty(difficulty)
+	option1 := g.WordsStore.RandomWord().English
+	option2 := g.WordsStore.RandomWord().English
+	option3 := g.WordsStore.RandomWord().English
 	options := []string{w.English, option1, option2, option3}
 	rand.Shuffle(len(options), func(i, j int) { options[i], options[j] = options[j], options[i] })
 	return core.Question{
@@ -101,13 +100,4 @@ type displayer interface {
 	Draw(screen *ebiten.Image)
 	SetQuestion(question core.Question, points int)
 	GetAnswer() *string
-}
-
-func parseWords() []*core.Word {
-	var words []*core.Word
-	err := yaml.Unmarshal(assets.Nouns, &words)
-	if err != nil {
-		slog.Error("error unmarshalling words", "error", err)
-	}
-	return words
 }
