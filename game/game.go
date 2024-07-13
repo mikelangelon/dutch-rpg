@@ -2,16 +2,20 @@ package game
 
 import (
 	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/mikelangelon/dutchrpg/assets"
 	"github.com/mikelangelon/dutchrpg/core"
 	"github.com/mikelangelon/dutchrpg/graphics"
+	"github.com/mikelangelon/dutchrpg/graphics/scene"
 	"github.com/mikelangelon/dutchrpg/persistence"
 	"github.com/mikelangelon/dutchrpg/ui"
+	"log/slog"
 	"math/rand"
 )
 
 const (
 	ScreenWidth  = 720
 	ScreenHeight = 1280
+	initialLives = 3
 )
 
 const (
@@ -24,19 +28,40 @@ type Game struct {
 	WordsStore      *persistence.WordStore
 	Status          string
 	CounterCorrect  int
+	lives           int
 	currentQuestion core.Question
 
+	HUI    *scene.HUI
 	Scene  *graphics.MapScene
 	Player *graphics.Char
 }
 
-func NewGame(scene *graphics.MapScene, player *graphics.Char) *Game {
+func NewGame() *Game {
+	initialMap, err := graphics.NewMapScene(assets.MapPackPNG, assets.InitialMap, assets.MapPackTSX, 50*16*3, 600, 3)
+	if err != nil {
+		slog.Error("crash parseTileSet", "error", err)
+		return nil
+	}
+	factory, _ := graphics.NewCharFactory(assets.MapPackPNG, assets.MapPackTSX, 3)
+	playerImage := factory.CharImage(361)
+	hearth := factory.CharImage(532)
+	player := &graphics.Char{
+		ID:            "player",
+		Image:         playerImage,
+		IdleAnimation: []*ebiten.Image{factory.CharImage(361), factory.CharImage(363), factory.CharImage(365)},
+		X:             1 * 16,
+		Y:             7 * 16,
+		ScaleX:        3,
+		ScaleY:        3,
+	}
 	return &Game{
 		UI:         ui.NewQuestionsUI(),
 		WordsStore: persistence.New(),
 		Status:     statusNextWord,
-		Scene:      scene,
+		Scene:      initialMap,
 		Player:     player,
+		lives:      initialLives,
+		HUI:        scene.NewHUI(hearth, initialLives),
 	}
 }
 
@@ -78,6 +103,14 @@ func (g *Game) Update() error {
 				}
 			} else {
 				g.CounterCorrect = 0
+				g.lives -= 1
+				if g.lives <= 0 {
+					// gameover. For now, starting again
+					g.lives = initialLives
+					g.Scene.Camera.Position[0] = 0
+					g.Player.X = 1 * 16
+				}
+				g.HUI.Hearths(g.lives)
 			}
 
 		}
@@ -90,6 +123,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 	g.UI.Draw(screen)
 	g.Scene.Draw(screen)
 	g.Player.Draw(screen)
+	g.HUI.Draw(screen)
 }
 
 func (g *Game) Layout(_, _ int) (int, int) {
