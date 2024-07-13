@@ -17,12 +17,13 @@ func main() {
 	factory, _ := graphics.NewCharFactory(assets.MapPackPNG, assets.MapPackTSX, 3)
 	playerImage := factory.CharImage(361)
 	player := &graphics.Char{
-		ID:     "player",
-		Image:  playerImage,
-		X:      1 * 16,
-		Y:      7 * 16,
-		ScaleX: 3,
-		ScaleY: 3,
+		ID:            "player",
+		Image:         playerImage,
+		IdleAnimation: []*ebiten.Image{factory.CharImage(361), factory.CharImage(363), factory.CharImage(365)},
+		X:             1 * 16,
+		Y:             7 * 16,
+		ScaleX:        3,
+		ScaleY:        3,
 	}
 	ebiten.SetWindowSize(game.ScreenWidth, game.ScreenHeight)
 	ebiten.SetWindowResizingMode(ebiten.WindowResizingModeEnabled)

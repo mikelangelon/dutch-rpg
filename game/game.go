@@ -82,6 +82,7 @@ func (g *Game) Update() error {
 
 		}
 	}
+	g.Player.Update()
 	return g.UI.Update()
 }
 

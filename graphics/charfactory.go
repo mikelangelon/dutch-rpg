@@ -56,13 +56,12 @@ func (c *CharFactory) CharImages(ids []int) []*ebiten.Image {
 	return images
 }
 
-func (c *CharFactory) NewChar(id int, withIDs []int, x, y int64) *Char {
+func (c *CharFactory) NewChar(id int, x, y int64) *Char {
 	return &Char{
 		Image:  c.CharImage(id),
 		X:      x,
 		Y:      y,
 		ScaleX: float64(c.scale),
 		ScaleY: float64(c.scale),
-		Stuff:  c.CharImages(withIDs),
 	}
 }
