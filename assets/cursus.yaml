@@ -1,0 +1,337 @@
+- dutch: werken
+  english: work
+  dehet: de
+  type: noun
+  difficulty: 5
+  labels:
+    - driving
+- dutch: werkzaamheden
+  english: activities
+  dehet: de
+  type: noun
+  difficulty: 12
+  labels:
+    - driving
+- dutch: omleiding
+  english: divert
+  dehet: de
+  type: noun
+  difficulty: 12
+  labels:
+    - driving
+- dutch: plein
+  english: square (in a town)
+  dehet: het
+  type: noun
+  difficulty: 5
+  labels:
+    - driving
+- dutch: dorp
+  english: town
+  dehet: het
+  type: noun
+  difficulty: 5
+  labels:
+    - driving
+- dutch: brug
+  english: bridge
+  dehet: de
+  type: noun
+  difficulty: 6
+  labels:
+    - driving
+- dutch: buurt
+  english: neighbourhood
+  dehet: de
+  type: noun
+  difficulty: 6
+  labels:
+    - driving
+- dutch: richting
+  english: direction
+  dehet: de
+  type: noun
+  difficulty: 9
+  labels:
+    - driving
+- dutch: cirkel
+  english: circle
+  dehet: de
+  type: noun
+  difficulty: 6
+- dutch: vierkant
+  english: square (figure)
+  dehet: het
+  type: noun
+  difficulty: 6
+- dutch: kant
+  english: side
+  dehet: de
+  type: noun
+  difficulty: 5
+  labels:
+    - driving
+- dutch: linksaf
+  english: turn left
+  type: adverb (?)
+  difficulty: 8
+  labels:
+    - driving
+- dutch: rechtsaf
+  english: turn right
+  type: adverb (?)
+  difficulty: 8
+  labels:
+    - driving
+- dutch: rechtdoor
+  english: straight ahead
+  type: adverb
+  difficulty: 8
+  labels:
+    - driving
+- dutch: langs
+  english: by
+  type: preposition
+  difficulty: 8
+- dutch: draaien
+  english: to turn
+  type: verb
+  difficulty: 10
+  labels:
+    - driving
+- dutch: passeren
+  english: to pass
+  type: verb
+  difficulty: 10
+  labels:
+    - driving
+- dutch: daarom
+  english: because
+  english-synonyms:
+    - therefore
+    - that's why
+    - hence
+  type: adverb
+  difficulty: 7
+- dutch: rond
+  english: around
+  type: preposition
+  difficulty: 5
+- dutch: gevaar
+  english: danger
+  type: noun
+  dehet: het
+  difficulty: 9
+- dutch: gevaarlijk
+  english: dangerous
+  type: adjective
+  difficulty: 9
+- dutch: voorzichtig
+  english: carefull
+  type: adverb
+  difficulty: 9
+- dutch: rijden
+  english: to drive
+  type: verb
+  difficulty: 5
+  labels:
+    - driving
+- dutch: opinie
+  english: opinion
+  dehet: de
+  type: noun
+  difficulty: 5
+- dutch: langzaam
+  english: slow
+  type: adjective
+  difficulty: 5
+- dutch: snel
+  english: fast
+  type: adjective
+  difficulty: 5
+- dutch: meter
+  english: meter
+  type: noun
+  difficulty: 2
+  labels:
+    - driving
+- dutch: politie
+  english: police
+  type: noun
+  dehet: de
+  difficulty: 2
+- dutch: snelheid
+  english: velocity
+  type: noun
+  dehet: de
+  difficulty: 6
+  labels:
+    - driving
+- dutch: controle
+  english: control
+  type: noun
+  dehet: de
+  difficulty: 6
+  labels:
+    - driving
+- dutch: denken
+  english: to think
+  type: verb
+  difficulty: 5
+- dutch: vinden
+  english: to find
+  type: verb
+  difficulty: 5
+- dutch: straffen
+  english: to punish
+  type: verb
+  difficulty: 10
+- dutch: straf
+  english: punishment
+  type: noun
+  dehet: de
+  difficulty: 10
+- dutch: boete
+  english: fine
+  type: noun
+  dehet: de
+  difficulty: 10
+  labels:
+    - driving
+- dutch: overal
+  english: everywhere
+  type: adverb
+  difficulty: 7
+- dutch: ergens
+  english: somewhere
+  type: adverb
+  difficulty: 7
+- dutch: nergens
+  english: nowhere
+  type: adverb
+  difficulty: 7
+- dutch: iedereen
+  english: everyone
+  type: adverb
+  difficulty: 7
+- dutch: iemand
+  english: someone
+  type: adverb
+  difficulty: 7
+- dutch: niemand
+  english: noone
+  type: adverb
+  difficulty: 7
+- dutch: alles
+  english: everything
+  type: adverb
+  difficulty: 7
+- dutch: iets
+  english: something
+  type: adverb
+  difficulty: 7
+- dutch: niets
+  english: nothing
+  type: adverb
+  difficulty: 7
+- dutch: ding
+  english: thing
+  type: noun
+  difficulty: 7
+- dutch: heten
+  english: to be named
+  type: verb
+  difficulty: 5
+- dutch: zeggen
+  english: to say
+  type: verb
+  difficulty: 5
+- dutch: kleur
+  english: color
+  type: noun
+  dehet: de
+  difficulty: 5
+- dutch: tegenwoordig
+  english: nowadays
+  type: adverb
+  difficulty: 8
+- dutch: zitten
+  english: to sit
+  type: verb
+  difficulty: 5
+- dutch: staan
+  english: to stand
+  type: verb
+  difficulty: 5
+- dutch: nieuws
+  english: news
+  dehet: het
+  type: noun
+  difficulty: 5
+- dutch: krant
+  english: newspaper
+  dehet: de
+  type: noun
+  difficulty: 5
+- dutch: omdat
+  english: because
+  type: conjunction
+  difficulty: 5
+  labels:
+    - catapult
+- dutch: terwijl
+  english: while
+  type: conjunction
+  difficulty: 5
+  labels:
+    - catapult
+- dutch: wanneer
+  english: when
+  type: conjunction
+  difficulty: 5
+  labels:
+    - catapult
+- dutch: als
+  english: if
+  english-synonyms:
+    - when
+    - as
+  type: conjunction
+  difficulty: 5
+  labels:
+    - catapult
+- dutch: toen
+  english: when
+  type: conjunction
+  difficulty: 5
+  labels:
+    - catapult
+- dutch: katapult
+  english: catapult
+  type: noun
+  dehet: de
+- dutch: kantoor
+  english: office
+  type: noun
+  dehet: het
+  difficulty: 5
+- dutch: spreken
+  english: to speak
+  type: verb
+  difficulty: 5
+- dutch: nemen
+  english: to take
+  type: verb
+  difficulty: 5
+- dutch: luisteren
+  english: to listen
+  type: verb
+  difficulty: 5
+- dutch: recht
+  english: straight
+  type: adjective
+  difficulty: 7
+- dutch: scheef
+  english: crooked
+  type: adjective
+  difficulty: 7

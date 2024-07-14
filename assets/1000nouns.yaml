@@ -688,7 +688,7 @@
   difficulty: 4
   labels:
     - basic
-- dutch: eerste
+- dutch: eerst
   english: first
   type: adjective
   difficulty: 4
@@ -1508,6 +1508,571 @@
   dehet: de
   sentences:
     - Het huis is groot -> The house is big
+- dutch: echter
+  english: however
+  type: adverb
+  difficulty: 8
+  labels:
+    - basic
+  sentences:
+    - Ik ben dol op skiën, je kan het echter alleen in de winter doen -> I love skiing; however, you can only do it in winter
+- dutch: deel
+  english: to share (1st & 2nd person)
+  type: verb
+  difficulty: 8
+  labels:
+    - other forms
+- dutch: ten
+  english: at the
+  type: preposition
+  difficulty: 8
+  labels:
+    - basic
+  sentences:
+    - Ten huize van de van Corvo familie werd altijd veel gezongen -> At the home of the Corvo's family there is always a lot of singing
+- dutch: kun
+  english: can (2nd person)
+  type: verb
+  difficulty: 4
+  labels:
+    - other forms
+- dutch: volgens
+  english: according to
+  type: preposition
+  difficulty: 5
+- dutch: mag
+  english: may (singular present tense)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: mooie
+  english: pretty
+  english-synonyms:
+    - beautiful
+  type: adjective
+  difficulty: 5
+  labels:
+    - basic
+- dutch: naast
+  english: next to
+  type: preposition
+  difficulty: 5
+  labels:
+    - basic
+- dutch: vanauit
+  english: from
+  type: preposition
+  difficulty: 10
+- dutch: zodat
+  english: so that
+  english-synonyms:
+    - in order to
+  type: conjunction
+  difficulty: 8
+- dutch: klein
+  english: small
+  english-synonyms:
+    - little
+  type: adjective
+  difficulty: 5
+  labels:
+    - basic
+- dutch: anders
+  english: other
+  english-synonyms:
+    - different
+  type: adverb
+  difficulty: 6
+  labels:
+    - basic
+- dutch: anders
+  english: if not
+  type: conjunction
+  difficulty: 8
+- dutch: vraag
+  english: question
+  type: noun
+  difficulty: 5
+- dutch: vraag
+  english: to ask (1st & 2nd person)
+  type: verb
+  difficulty: 6
+  labels:
+    - other forms
+- dutch: wilt
+  english: to want (3rd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: werden
+  english: to become (past tense)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: daarom
+  english: because
+  english-synonyms:
+    - therefore
+    - that's why
+    - hence
+  type: adverb
+  difficulty: 7
+- dutch: zit
+  english: to sit (singular person)
+  english-synonyms:
+    - to be in certain place(singular person)
+  type: verb
+  difficulty: 7
+  labels:
+    - other forms
+- dutch: water
+  english: water
+  type: noun
+  difficulty: 3
+  labels:
+    - basic
+- dutch: extra
+  english: extra
+  type: adjective
+  difficulty: 2
+- dutch: best
+  english: best
+  type: adjective
+  difficulty: 2
+- dutch: vindt
+  english: to find (2nd & 3rd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: tweede
+  english: second
+  type: adjective
+  difficulty: 4
+- dutch: krijgt
+  english: to receive (2nd & 3rd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: zowel
+  english: as well as
+  english-synonyms:
+    - both
+  type: adverb
+  difficulty: 7
+- dutch: gebruikt
+  english: to use (2nd & 3rd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: onderzoek
+  english: research
+  type: noun
+  difficulty: 7
+- dutch: onderzoek
+  english: to research (1st & 2nd person)
+  type: noun
+  difficulty: 7
+  labels:
+    - other forms
+- dutch: gewoon
+  english: normal
+  type: adjective
+  difficulty: 7
+- dutch: gewoon
+  english: as usual
+  type: adverb
+  difficulty: 7
+- dutch: kwam
+  english: to come(singular past tense)
+  type: verb
+  difficulty: 7
+  labels:
+    - other forms
+- dutch: wereld
+  english: world
+  type: noun
+  difficulty: 6
+- dutch: allemaal
+  english: everything
+  english-synonyms:
+    - all
+  type: pronoun
+  difficulty: 6
+- dutch: jullie
+  english: you
+  type: pronoun
+  difficulty: 3
+- dutch: moment
+  english: moment
+  type: pronoun
+  difficulty: 3
+- dutch: helemaal
+  english: entirely
+  english-synonyms:
+    - completely
+    - totally
+  type: adverb
+  difficulty: 6
+- dutch: kon
+  english: can (singular past tense)
+  english-synonyms:
+    - completely
+    - totally
+  type: verb
+  difficulty: 10
+- dutch: blijven
+  english: to stay
+  type: verb
+  difficulty: 5
+- dutch: zie
+  english: to see (1st & 2nd person
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: bedrijf
+  english: business
+  english-synonyms:
+    - company
+  type: noun
+  difficulty: 9
+- dutch: lang
+  english: long
+  english-synonyms:
+    - tall
+  type: adjective
+  difficulty: 5
+  labels:
+    - basic
+- dutch: ligt
+  english: to lie (2nd & 3rd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: waarin
+  english: in which
+  type: adverb
+  difficulty: 12
+  sentences:
+    - Dit is het huis waarin Anne Frank en haar familie hebben gewoond -> This is the house in which Anne Frank and her family lived
+- dutch: doet
+  english: to do (2nd & 3rd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: jij
+  english: you
+  type: pronoun
+  difficulty: 3
+  labels:
+    - basic
+- dutch: vind
+  english: to find (1st & 2nd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: gemeente
+  english: municipality
+  english-synonyms:
+    - congregation
+    - community
+  type: noun
+  difficulty: 6
+- dutch: daarnaast
+  english: besides
+  english-synonyms:
+    - furthermore
+    - next to it
+  type: adverb
+  difficulty: 8
+- dutch: belangrijk
+  english: important
+  english-synonyms:
+    - considerable amount of
+  type: adjective
+  difficulty: 6
+- dutch: online
+  english: online
+  type: adjective
+  difficulty: 2
+- dutch: nooit
+  english: never
+  type: adverb
+  difficulty: 4
+  labels:
+    - basic
+- dutch: waarbij
+  english: whereby
+  english-synonyms:
+    - with which
+    - by which
+  type: adverb
+  difficulty: 8
+- dutch: euro
+  english: euro
+  type: noun
+  difficulty: 2
+- dutch: soms
+  english: sometimes
+  english-synonyms:
+    - perhaps
+  type: adverb
+  difficulty: 4
+- dutch: ging
+  english: to go (singular past tense)
+  english-synonyms:
+    - to be possible (singular past tense)
+  type: verb
+  difficulty: 6
+  labels:
+    - other forms
+- dutch: diverse
+  english: diverse
+  english-synonyms:
+    - several
+  type: adjective
+  difficulty: 2
+- dutch: contact
+  english: contact
+  type: noun
+  difficulty: 2
+- dutch: gebied
+  english: area
+  english-synonyms:
+    - region
+  type: noun
+  difficulty: 8
+- dutch: lees
+  english: to read (1st & 2nd person)
+  type: verb
+  difficulty: 4
+  labels:
+    - other forms
+- dutch: naam
+  english: name
+  english-synonyms:
+    - reputation
+  type: noun
+  difficulty: 3
+  labels:
+    - basic
+- dutch: achter
+  english: behind
+  type: adjective
+  difficulty: 5
+  labels:
+    - basic
+- dutch: leuk
+  english: nice
+  english-synonyms:
+    - fun
+    - pleasant
+    - funny
+  type: adjective
+  difficulty: 4
+  labels:
+    - basic
+- dutch: geld
+  english: money
+  type: noun
+  difficulty: 4
+  labels:
+    - basic
+- dutch: ga
+  english: to go (1st & end person)
+  type: verb
+  difficulty: 4
+  labels:
+    - other forms
+- dutch: direct
+  english: direct
+  type: adjective
+  difficulty: 2
+- dutch: rond
+  english: around
+  type: preposition
+  difficulty: 4
+- dutch: niets
+  english: nothing
+  type: pronoun
+  difficulty: 4
+  labels:
+    - basic
+- dutch: gebruiken
+  english: to use
+  type: verb
+  difficulty: 5
+  labels:
+    - basic
+- dutch: open
+  english: open
+  type: adjective
+  difficulty: 3
+- dutch: open
+  english: to open (1st & 2nd person)
+  type: verb
+  difficulty: 3
+- dutch: kennis
+  english: knowledge
+  type: noun
+  difficulty: 5
+- dutch: product
+  english: product
+  type: noun
+  difficulty: 2
+- dutch: organisatie
+  english: organization
+  type: noun
+  difficulty: 2
+- dutch: zorg
+  english: care
+  type: noun
+  difficulty: 5
+- dutch: zorg
+  english: to take care(1st & 2nd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: geval
+  english: case
+  type: noun
+  difficulty: 7
+  dehet: het
+- dutch: zitten
+  english: to sit
+  type: verb
+  difficulty: 5
+  labels:
+    - basic
+- dutch: misschien
+  english: maybe
+  english-synonyms:
+    - perhaps
+  type: adverb
+  difficulty: 5
+  labels:
+    - basic
+- dutch: kijken
+  english: to look
+  english-synonyms:
+    - to watch
+  type: verb
+  difficulty: 5
+  labels:
+    - basic
+- dutch: den
+  english: pine tree
+  type: noun
+  difficulty: 8
+- dutch: boek
+  english: book
+  example: Ik lees een interessant boek. (I am reading an interesting book.)
+  type: noun
+  difficulty: 2
+  labels:
+    - basic
+  dehet: de
+- dutch: lekker
+  english: tasty
+  english-synonyms:
+    - delicious
+    - deliciously
+    - pleasant
+  type: adjective
+  difficulty: 4
+  labels:
+    - basic
+- dutch: blijft
+  english: to stay (2nd & 3rd person)
+  type: verb
+  difficulty: 5
+  labels:
+    - other forms
+- dutch: spelen
+  english: to play
+  type: verb
+  difficulty: 5
+  labels:
+    - basic
+- dutch: spelen
+  english: games
+  type: noun
+  difficulty: 4
+  labels:
+    - basic
+- dutch: oud
+  english: old
+  type: adjective
+  difficulty: 4
+  labels:
+    - basic
+- dutch: bijna
+  english: almost
+  type: adverb
+  difficulty: 5
+  labels:
+    - basic
+- dutch: waardoor
+  english: because of which
+  type: adverb
+  difficulty: 8
+  sentences:
+    - Ik had teveel chilli bij de pastasaus gedaan waardoor het niet te eten was! -> I had to put too much chili in the pasta sauce and because of that it was inedible!
+- dutch: paar
+  english: a couple of
+  type: noun
+  difficulty: 5
+- dutch: auto
+  english: car
+  type: noun
+  difficulty: 3
+- dutch: sinds
+  english: since
+  type: preposition
+  difficulty: 4
+  labels:
+    - basic
+- dutch: vandaag
+  english: today
+  type: adverb
+  difficulty: 4
+  labels:
+    - basic
+- dutch: ander
+  english: (an)other
+  english-synonyms:
+    - different
+  type: adjective
+  difficulty: 5
+  labels:
+    - basic
+- dutch: later
+  english: later
+  type: adjective, adverb
+  difficulty: 2
+  labels:
+    - basic
+- dutch: hadden
+  english: to have (plural past tense)
+  type: verb
+  difficulty: 8
+- dutch: basis
+  english: basis
+  english-synonyms:
+    - foundation
+    - base
+  type: noun
+  difficulty: 5
 - dutch: man
   english: man
   example: De man loopt snel. (The man is walking fast.)
@@ -1602,14 +2167,6 @@
   example: De school begint om 8 uur. (The school starts at 8 o'clock.)
   type: noun
   difficulty: 1
-  labels:
-    - basic
-  dehet: de
-- dutch: boek
-  english: book
-  example: Ik lees een interessant boek. (I am reading an interesting book.)
-  type: noun
-  difficulty: 2
   labels:
     - basic
   dehet: de

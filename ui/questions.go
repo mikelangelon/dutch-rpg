@@ -33,6 +33,14 @@ func (q *QuestionsUI) SetQuestion(question core.Question, points int) {
 	q.answer = nil
 	for i, v := range q.buttons {
 		v.Text().Label = question.Options[i]
+		if len(question.Options[i]) < 15 {
+			v.Text().Face, _ = loadFont(40)
+		} else if len(question.Options[i]) < 23 {
+			v.Text().Face, _ = loadFont(30)
+		} else {
+			v.Text().Face, _ = loadFont(20)
+		}
+
 	}
 	q.wordLabel.Label = question.Word
 	q.pointsLabel.Label = fmt.Sprintf("%d", points)
