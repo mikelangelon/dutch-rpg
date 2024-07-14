@@ -55,7 +55,7 @@ func NewGame() *Game {
 		ScaleY:        3,
 	}
 	return &Game{
-		UI:         ui.NewQuestionsUI(),
+		UI:         ui.NewBasisUI(),
 		WordsStore: persistence.New(),
 		Status:     statusNextWord,
 		Scene:      initialMap,
@@ -89,7 +89,7 @@ func (g *Game) Update() error {
 	switch g.Status {
 	case statusNextWord:
 		g.currentQuestion = g.prepareQuestion()
-		g.UI.SetQuestion(g.currentQuestion, g.CounterCorrect)
+		g.UI.SetQuestion(g.currentQuestion)
 		g.Status = statusWaiting
 	case statusWaiting:
 		if answer := g.UI.GetAnswer(); answer != nil {
@@ -133,6 +133,6 @@ func (g *Game) Layout(_, _ int) (int, int) {
 type displayer interface {
 	Update() error
 	Draw(screen *ebiten.Image)
-	SetQuestion(question core.Question, points int)
+	SetQuestion(question core.Question)
 	GetAnswer() *string
 }

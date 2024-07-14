@@ -1,7 +1,6 @@
 package ui
 
 import (
-	"fmt"
 	"github.com/ebitenui/ebitenui"
 	"github.com/ebitenui/ebitenui/image"
 	"github.com/ebitenui/ebitenui/widget"
@@ -10,51 +9,39 @@ import (
 	"image/color"
 )
 
-type QuestionsUI struct {
+type BasisUI struct {
 	UI *ebitenui.UI
 	// HUI
-	buttons     []*widget.Button
-	wordLabel   *widget.Text
-	pointsLabel *widget.Text
-	// To return back
-	answer *string
+	mainLabel        *widget.Text
+	challenger       challenger
+	buttonsContainer *widget.Container
 }
 
-func (q *QuestionsUI) Update() error {
+type challenger interface {
+	SetQuestion(question core.Question, container *widget.Container)
+	GetAnswer() *string
+}
+
+func (q *BasisUI) Update() error {
 	q.UI.Update()
 	return nil
 }
 
-func (q *QuestionsUI) Draw(screen *ebiten.Image) {
+func (q *BasisUI) Draw(screen *ebiten.Image) {
 	q.UI.Draw(screen)
 }
 
-func (q *QuestionsUI) SetQuestion(question core.Question, points int) {
-	q.answer = nil
-	for i, v := range q.buttons {
-		v.Text().Label = question.Options[i]
-		if len(question.Options[i]) < 15 {
-			v.Text().Face, _ = loadFont(40)
-		} else if len(question.Options[i]) < 23 {
-			v.Text().Face, _ = loadFont(30)
-		} else {
-			v.Text().Face, _ = loadFont(20)
-		}
-
-	}
-	q.wordLabel.Label = question.Word
-	q.pointsLabel.Label = fmt.Sprintf("%d", points)
+func (q *BasisUI) GetAnswer() *string {
+	return q.challenger.GetAnswer()
 }
-
-func (q *QuestionsUI) GetAnswer() *string {
-	return q.answer
+func (q *BasisUI) SetQuestion(question core.Question) {
+	q.buttonsContainer.RemoveChildren()
+	q.challenger.SetQuestion(question, q.buttonsContainer)
+	q.mainLabel.Label = question.Word
 }
-
-func NewQuestionsUI() *QuestionsUI {
+func NewBasisUI() *BasisUI {
 	face, _ := loadFont(40)
-	pointsFont, _ := loadFont(100)
 	container := widget.NewContainer(
-
 		widget.ContainerOpts.Layout(widget.NewGridLayout(
 			widget.GridLayoutOpts.Columns(1),
 			widget.GridLayoutOpts.Stretch([]bool{true}, []bool{true}),
@@ -62,7 +49,7 @@ func NewQuestionsUI() *QuestionsUI {
 		),
 		),
 	)
-	ui := &QuestionsUI{
+	ui := &BasisUI{
 		UI: &ebitenui.UI{Container: container},
 	}
 	firstContainer := widget.NewContainer(
@@ -80,17 +67,6 @@ func NewQuestionsUI() *QuestionsUI {
 			}),
 		),
 	)
-	pointsLabel := widget.NewText(
-		widget.TextOpts.Text("Example", pointsFont, color.White),
-		widget.TextOpts.Position(widget.TextPositionCenter, widget.TextPositionCenter),
-		widget.TextOpts.WidgetOpts(
-			widget.WidgetOpts.LayoutData(widget.RowLayoutData{
-				Position: widget.RowLayoutPositionCenter,
-			}),
-		),
-	)
-	ui.pointsLabel = pointsLabel
-	firstContainer.AddChild(pointsLabel)
 
 	secondContainer := widget.NewContainer(
 		widget.ContainerOpts.BackgroundImage(image.NewNineSliceColor(color.NRGBA{200, 0, 100, 150})),
@@ -138,18 +114,12 @@ func NewQuestionsUI() *QuestionsUI {
 			}),
 		),
 	)
-	ui.wordLabel = wordLabel
+	ui.mainLabel = wordLabel
 	secondContainer.AddChild(wordLabel)
-
-	for _, v := range []string{"", "", "", ""} {
-		b := createButton(v, func(args *widget.ButtonClickedEventArgs) {
-			ui.answer = &args.Button.Text().Label
-		})
-		ui.buttons = append(ui.buttons, b)
-		buttonsContainer.AddChild(b)
-	}
 	container.AddChild(firstContainer)
 	container.AddChild(secondContainer)
 	secondContainer.AddChild(buttonsContainer)
+	ui.buttonsContainer = buttonsContainer
+	ui.challenger = &questionsChallenge{}
 	return ui
 }

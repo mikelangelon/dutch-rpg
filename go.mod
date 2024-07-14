@@ -5,7 +5,7 @@ go 1.22.3
 require (
 	github.com/ebitenui/ebitenui v0.5.7
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
-	github.com/hajimehoshi/ebiten/v2 v2.7.7
+	github.com/hajimehoshi/ebiten/v2 v2.7.5
 	github.com/mikelangelon/town-sweet-town v0.0.0-20240629065839-dae47c675b95
 	golang.org/x/image v0.18.0
 	gopkg.in/yaml.v3 v3.0.1
