@@ -1,7 +1,9 @@
 package core
 
 type Question struct {
-	Word    string
-	Answer  string
-	Options []string
+	Word          string
+	SecondaryWord *string
+	Answer        string
+	Options       []string
+	Type          string
 }
