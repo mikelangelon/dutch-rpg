@@ -82,13 +82,60 @@ func (g *Game) prepareQuestion() core.Question {
 		Options: options,
 	}
 }
+
+func randomQuestion() core.Question {
+	switch rand.Intn(4) {
+	case 0:
+		return core.Question{
+			Word:    "Blabla",
+			Type:    "questions",
+			Answer:  "A",
+			Options: []string{"A", "B", "B", "C"},
+		}
+	case 1:
+		return core.Question{
+			Word: "Blabla",
+			SecondaryWord: func() *string {
+				s := "something"
+				return &s
+			}(),
+			Type:    "yes-no",
+			Answer:  "Yes",
+			Options: []string{"Yes", "No"},
+		}
+	case 2:
+		return core.Question{
+			Word:    "",
+			Type:    "order",
+			Answer:  "Ik woon in Amsterdam",
+			Options: []string{"Ik", "woon", "in", "Amsterdam"},
+			SecondaryWord: func() *string {
+				s := ""
+				return &s
+			}(),
+		}
+	case 3:
+		return core.Question{
+			Word:    "Blabla",
+			Type:    "spelling",
+			Answer:  "DEC",
+			Options: []string{"A", "B", "B", "C", "D", "E", "F", "G", "H"},
+			SecondaryWord: func() *string {
+				s := ""
+				return &s
+			}(),
+		}
+	}
+	return core.Question{}
+}
 func (g *Game) Update() error {
 	if ebiten.IsKeyPressed(ebiten.KeyD) || ebiten.IsKeyPressed(ebiten.KeyArrowRight) {
 		g.Scene.Camera.Position[0] += 1
 	}
 	switch g.Status {
 	case statusNextWord:
-		g.currentQuestion = g.prepareQuestion()
+		g.currentQuestion = randomQuestion() //g.prepareQuestion()
+		//g.UI.SetQuestionDeprecated(g.currentQuestion)
 		g.UI.SetQuestion(g.currentQuestion)
 		g.Status = statusWaiting
 	case statusWaiting:

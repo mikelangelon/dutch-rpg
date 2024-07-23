@@ -279,6 +279,12 @@
   difficulty: 5
   labels:
     - catapult
+- dutch: tijdens
+  english: during
+  type: conjunction
+  difficulty: 5
+  labels:
+    - catapult
 - dutch: terwijl
   english: while
   type: conjunction
@@ -334,4 +340,34 @@
 - dutch: scheef
   english: crooked
   type: adjective
+  difficulty: 7
+- dutch: verdieping
+  english: floor (in building)
+  type: noun
+  difficulty: 10
+- dutch: gelijk vloers
+  english: ground floor
+  dehet: het
+  type: noun
+  difficulty: 10
+- dutch: beneden
+  english: downstarts
+  type: adverb
+  difficulty: 10
+- dutch: boven
+  english: upstairs
+  type: adverb
+  difficulty: 10
+- dutch: boven
+  english: above
+  type: preposition
+  difficulty: 7
+- dutch: bezoek
+  english: visit
+  dehet: het
+  type: noun
+  difficulty: 7
+- dutch: bezoeken
+  english: to visit
+  type: verb
   difficulty: 7
