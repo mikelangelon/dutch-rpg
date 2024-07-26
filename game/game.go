@@ -84,6 +84,28 @@ func (g *Game) prepareQuestion() core.Question {
 	}
 }
 
+func (g *Game) prepareYesNoQuestion() core.Question {
+	difficulty := g.CounterCorrect / 2
+	if difficulty > 8 {
+		difficulty = 8
+	}
+	w := g.WordsStore.WordDifficulty(difficulty)
+	var options []string
+	for {
+		aw := g.WordsStore.WordDifficulty(difficulty)
+		if aw.Dutch != w.Dutch {
+			options = []string{aw.English}
+			break
+		}
+	}
+
+	return core.Question{
+		Word:    w.Dutch,
+		Answer:  w.English,
+		Options: options,
+	}
+}
+
 func (g *Game) randomQuestion() core.Question {
 	switch rand.Intn(4) {
 	case 0:
@@ -91,14 +113,21 @@ func (g *Game) randomQuestion() core.Question {
 		q.Type = "questions"
 		return q
 	case 1:
+		q := g.prepareYesNoQuestion()
+		answer := "Yes"
+		secondaryWord := q.Answer
+		if rand.Intn(2) == 0 {
+			answer = "No"
+			secondaryWord = q.Options[0]
+		}
 		return core.Question{
-			Word: "Blabla",
+			Word: q.Word,
 			SecondaryWord: func() *string {
-				s := "something"
+				s := secondaryWord
 				return &s
 			}(),
 			Type:    "yes-no",
-			Answer:  "Yes",
+			Answer:  answer,
 			Options: []string{"Yes", "No"},
 		}
 	case 2:
