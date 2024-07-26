@@ -27,6 +27,7 @@ const (
 type Game struct {
 	UI              displayer
 	WordsStore      *persistence.WordStore
+	SentencesStore  *persistence.WordStore
 	Status          string
 	CounterCorrect  int
 	lives           int
@@ -56,13 +57,29 @@ func NewGame() *Game {
 		ScaleY:        3,
 	}
 	return &Game{
-		UI:         ui.NewBasisUI(),
-		WordsStore: persistence.New(),
-		Status:     statusNextWord,
-		Scene:      initialMap,
-		Player:     player,
-		lives:      initialLives,
-		HUI:        scene.NewHUI(hearth, initialLives),
+		UI:             ui.NewBasisUI(),
+		WordsStore:     persistence.New(),
+		SentencesStore: persistence.NewSentences(),
+		Status:         statusNextWord,
+		Scene:          initialMap,
+		Player:         player,
+		lives:          initialLives,
+		HUI:            scene.NewHUI(hearth, initialLives),
+	}
+}
+
+func (g *Game) prepareSentence() core.Question {
+	sentence := g.SentencesStore.RandomWord()
+	options := strings.Split(sentence.Dutch, " ")
+	rand.Shuffle(len(options), func(i, j int) { options[i], options[j] = options[j], options[i] })
+	return core.Question{
+		Answer:  sentence.Dutch,
+		Options: options,
+		Type:    "order",
+		SecondaryWord: func() *string {
+			s := ""
+			return &s
+		}(),
 	}
 }
 
@@ -131,16 +148,7 @@ func (g *Game) randomQuestion() core.Question {
 			Options: []string{"Yes", "No"},
 		}
 	case 2:
-		return core.Question{
-			Word:    "",
-			Type:    "order",
-			Answer:  "Ik woon in Amsterdam",
-			Options: []string{"Ik", "woon", "in", "Amsterdam"},
-			SecondaryWord: func() *string {
-				s := ""
-				return &s
-			}(),
-		}
+		return g.prepareSentence()
 	case 3:
 		q := g.prepareQuestion()
 		return core.Question{

@@ -8,6 +8,9 @@ var (
 	//go:embed 1000nouns.yaml
 	Nouns []byte
 
+	//go:embed sen.yaml
+	Sentences []byte
+
 	//go:embed colored_packed.tsx
 	MapPackTSX []byte
 

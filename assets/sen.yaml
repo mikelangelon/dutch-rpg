@@ -1,0 +1,40 @@
+- dutch: Hallo, hoe gaat het?
+  english: Hello, how are you?
+  type: sentence
+  difficulty: 2
+- dutch: Ik heet Anna
+  english: My name is Anna
+  type: sentence
+  difficulty: 2
+- dutch: Ik woon in Amsterdam
+  english: I live in Amsterdam
+  type: sentence
+  difficulty: 2
+- dutch: Ik houd van muziek
+  english: I love music
+  type: sentence
+  difficulty: 2
+- dutch: Dit is mijn kat
+  english: This is my cat
+  type: sentence
+  difficulty: 2
+- dutch:  De zon schijnt vandaag
+  english: The sun is shining today
+  type: sentence
+  difficulty: 2
+- dutch: Ik ga naar school
+  english: I am going to school
+  type: sentence
+  difficulty: 2
+- dutch: Wat is jouw favoriete kleur?
+  english: What is your favorite color?
+  type: sentence
+  difficulty: 2
+- dutch: Ik spreek een beetje Nederlands
+  english: I speak a little Dutch
+  type: sentence
+  difficulty: 2
+- dutch: Dank je wel!
+  english: Thank you!
+  type: sentence
+  difficulty: 2

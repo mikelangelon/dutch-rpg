@@ -21,6 +21,13 @@ func New() *WordStore {
 	return ws
 }
 
+func NewSentences() *WordStore {
+	ws := &WordStore{Words: parseSentences()}
+	ws.Shuffle()
+	ws.Flexibility = 1
+	return ws
+}
+
 func (ws *WordStore) RandomWord() *core.Word {
 	return ws.Words[rand.Intn(len(ws.Words))]
 }
@@ -43,6 +50,15 @@ func (ws *WordStore) WordDifficulty(difficulty int) *core.Word {
 func parseWords() []*core.Word {
 	var words []*core.Word
 	err := yaml.Unmarshal(assets.Nouns, &words)
+	if err != nil {
+		slog.Error("error unmarshalling words", "error", err)
+	}
+	return words
+}
+
+func parseSentences() []*core.Word {
+	var words []*core.Word
+	err := yaml.Unmarshal(assets.Sentences, &words)
 	if err != nil {
 		slog.Error("error unmarshalling words", "error", err)
 	}
