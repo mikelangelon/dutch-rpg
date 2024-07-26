@@ -10,6 +10,7 @@ import (
 	"github.com/mikelangelon/dutchrpg/ui"
 	"log/slog"
 	"math/rand"
+	"strings"
 )
 
 const (
@@ -83,15 +84,12 @@ func (g *Game) prepareQuestion() core.Question {
 	}
 }
 
-func randomQuestion() core.Question {
+func (g *Game) randomQuestion() core.Question {
 	switch rand.Intn(4) {
 	case 0:
-		return core.Question{
-			Word:    "Blabla",
-			Type:    "questions",
-			Answer:  "A",
-			Options: []string{"A", "B", "B", "C"},
-		}
+		q := g.prepareQuestion()
+		q.Type = "questions"
+		return q
 	case 1:
 		return core.Question{
 			Word: "Blabla",
@@ -115,13 +113,14 @@ func randomQuestion() core.Question {
 			}(),
 		}
 	case 3:
+		q := g.prepareQuestion()
 		return core.Question{
-			Word:    "Blabla",
+			Word:    q.Answer,
 			Type:    "spelling",
-			Answer:  "DEC",
+			Answer:  strings.ToUpper(q.Word),
 			Options: []string{"A", "B", "B", "C", "D", "E", "F", "G", "H"},
 			SecondaryWord: func() *string {
-				s := ""
+				s := "A"
 				return &s
 			}(),
 		}
@@ -134,7 +133,7 @@ func (g *Game) Update() error {
 	}
 	switch g.Status {
 	case statusNextWord:
-		g.currentQuestion = randomQuestion() //g.prepareQuestion()
+		g.currentQuestion = g.randomQuestion() //g.prepareQuestion()
 		//g.UI.SetQuestionDeprecated(g.currentQuestion)
 		g.UI.SetQuestion(g.currentQuestion)
 		g.Status = statusWaiting
